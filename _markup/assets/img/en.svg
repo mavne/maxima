@@ -1,0 +1,38 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ea4435;
+      }
+
+      .cls-2 {
+        fill: #006;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #c00;
+      }
+    </style>
+  </defs>
+  <title>en</title>
+  <g id="red">
+    <path id="Vector" class="cls-1" d="M33.66,13.6H20.4V.34A16.27,16.27,0,0,0,17,0a16.27,16.27,0,0,0-3.4.34V13.6H.34A16.13,16.13,0,0,0,0,17a16.13,16.13,0,0,0,.34,3.4H13.6V33.66a17.17,17.17,0,0,0,6.8,0V20.4H33.66a17.17,17.17,0,0,0,0-6.8Z"/>
+    <path id="Vector_2" data-name="Vector 2" class="cls-1" d="M6.8,10.2H9.07L8.61,7.48l2.72.45V5.67l-2.72.45L9.07,3.4H6.8l.45,2.72L4.53,5.67V7.93l2.72-.45Z"/>
+    <path id="Vector_3" data-name="Vector 3" class="cls-1" d="M24.93,10.2H27.2l-.45-2.72,2.72.45V5.67l-2.72.45L27.2,3.4H24.93l.46,2.72-2.72-.45V7.93l2.72-.45Z"/>
+    <path id="Vector_4" data-name="Vector 4" class="cls-1" d="M9.07,23.8H6.8s.36,1.63.5,2.72l-2.77-.45v2.26l2.77-.45C7.16,29,6.8,30.6,6.8,30.6H9.07S8.7,29,8.57,27.88l2.76.45V26.07l-2.76.45C8.7,25.45,9.07,23.8,9.07,23.8Z"/>
+    <path id="Vector_5" data-name="Vector 5" class="cls-1" d="M27.2,23.8H24.93l.46,2.72-2.72-.45v2.26l2.72-.45-.46,2.72H27.2l-.45-2.72,2.72.45V26.07l-2.72.45Z"/>
+  </g>
+  <g id="g578">
+    <rect id="rect124" class="cls-2" x="-17.37" width="68.06" height="34.03"/>
+    <g id="g584">
+      <path id="path146" class="cls-3" d="M-17.37,0V3.8L43.09,34H50.7v-3.8L-9.76,0ZM50.7,0V3.8L-9.76,34h-7.61v-3.8L43.09,0Z"/>
+      <path id="path136" class="cls-3" d="M11,0V34H22.34V0ZM-17.37,11.34V22.69H50.7V11.34Z"/>
+      <path id="path141" class="cls-4" d="M-17.37,13.61v6.81H50.7V13.61ZM13.26,0V34h6.81V0Z"/>
+      <path id="path150" class="cls-4" d="M-17.37,34,5.32,22.69h5.07L-12.3,34Zm0-34L5.32,11.34H.25l-17.62-8.8Zm40.3,11.34L45.62,0H50.7L28,11.34ZM50.7,34,28,22.69h5.07L50.7,31.5Z"/>
+    </g>
+  </g>
+</svg>
