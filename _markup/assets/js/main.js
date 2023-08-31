@@ -1,3 +1,36 @@
+class VisiableTracker{
+	constructor(){
+		this.trackElement = "section, footer";
+		this.addRemoveClass = "g-visible";
+	}
+
+	track(){
+		$(document).ready(function(){
+			$('body').addClass('loaded');
+		});
+
+		const elements = document.querySelectorAll(this.trackElement);
+
+		const observer = new IntersectionObserver(entries => {
+		  entries.forEach(entry => {
+		    if (entry.isIntersecting) {
+		      entry.target.classList.add(this.addRemoveClass);
+		    } else {
+		      // entry.target.classList.remove(this.addRemoveClass);
+		    }
+		  });
+		});
+
+		elements.forEach(element => {
+		  observer.observe(element);
+		});
+	}
+
+	run(){
+		this.track();
+	}
+}
+
 class SearchBox{
 	onFocus(){
 		var keywords = document.getElementById('keywords');
@@ -144,6 +177,10 @@ class ProductSlider{
 		this.buttonClickinit();
 	}
 }
+
+/* VisiableTracker */
+var visiableTracker = new VisiableTracker;
+visiableTracker.run();
 
 /* SearchBox */
 var searchBox = new SearchBox;

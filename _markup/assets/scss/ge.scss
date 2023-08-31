@@ -79,16 +79,76 @@ main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .ite
 
 main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .item .title p{
 	font-family: 'Roboto _Nusx';
-	font-size: 11px;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 }
 
 main .center .right .banners li a h3{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+}
+
+main .adresses-box .data h2{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 15px;
+	line-height: 15px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+main .adresses-box .data p{
 	font-family: 'Roboto _Nusx';
-	font-size: 12px;
+	font-size: 14px;
+	line-height: 16px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
+}
+
+main .products-box .center h2{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 24px;
+	line-height: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+main .products-box .center .products .item .content h3{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 15px;
+	line-height: 15px; 
+	font-style: normal;
+	font-weight: bold;	
+}
+
+main .products-box .center .products .item .content .data p,
+main .products-box .center .products .item .content .data p strong,
+main .products-box .center .products .item .content .data p span{
+	font-family: 'Roboto _Nusx';
+	font-size: 12px;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+main .products-box .center .products .item .content .bottom .price-box p{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 10px;
+	line-height: 10px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+main .products-box .center .products .item .content .bottom .price-box p.price{
+	font-family: 'Roboto _Nusx';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
 }

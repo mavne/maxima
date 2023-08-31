@@ -49,6 +49,14 @@ header{
 	position: relative;
 	background-color: $white;
 	z-index: 3;
+	opacity: 0;
+	transform: translateY(-400px);
+	@include trans('transform, opacity', '800ms');
+}
+
+body.loaded header{
+	opacity: 1;
+	transform: translateY(0px);
 }
 
 header .top{
@@ -56,6 +64,7 @@ header .top{
 	width: 100%;
 	height: 30px;
 	background-color: rgba(136, 137, 137, 0.1);
+	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
 }
 
 header .top .center .address{
@@ -246,6 +255,7 @@ header .middle .center .search-box form.focused input{
 
 header .middle .center .search-box form input::placeholder{
 	color: $color2;
+	opacity: 1;
 }
 
 header .middle .center .search-box form button{
@@ -376,6 +386,7 @@ header .bottom{
 	position: relative;
 	z-index: 100;
 	background: rgba(136, 137, 137, 0.10);
+	box-shadow: 0px 2px 3px 1px rgba(0,0,0,0.1);
 }
 
 header .bottom .center .production-box{
@@ -453,6 +464,17 @@ header .bottom .center .additional-menu ul li a{
 
 header .bottom .center .additional-menu ul li a:hover{
 	color: $color3;
+}
+
+body{
+	opacity: 0;
+	transform: translateY(300px);
+	@include trans('opacity, transform', '800ms');
+}
+
+body.loaded{
+	transform: translateY(0px);
+	opacity: 1;
 }
 
 body.navigationHovered::after{
@@ -579,6 +601,8 @@ header .bottom .center .production-box .navigation-box .sub-category .sub .item 
 	@include makeNull;
 	color: $color4;
 	text-align: center;
+	position: relative;
+	z-index: 10;
 	@include trans('color', '600ms');
 }
 
@@ -947,4 +971,300 @@ main .center .right .banners li a h3::after{
 
 main .center .right .banners li:hover a h3::after{
 	background-color: $white;
+}
+
+main .adresses-box{
+	@include makeNull;
+	background-color: $white;
+	margin-top: 32px;
+	padding: 40px 0;
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+main .adresses-box .item{
+	@include makeNull;
+	display: flex;
+	align-items: center;
+}
+
+main .adresses-box .item .box{
+	@include makeNull;
+}
+
+main .adresses-box .item .box .icon{
+	@include makeNull;
+	width: 64px;
+	height: 64px;
+	float: left;
+	border-radius: 100%;
+	background-color: rgba(136, 137, 137, 0.10);
+	position: relative;
+	@include trans('background-color', '600ms');
+}
+
+main .adresses-box .item:hover .box .icon{
+	background-color: $color3;
+}
+
+main .adresses-box .item .box .icon::after{
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: calc(50% - 13px);
+	left: calc(50% - 13px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .adresses-box .item:hover .box .icon::after{
+	background-color: $white;
+}
+
+main .adresses-box .item .box .icon.hall::after{
+	@include sprite('-194px -83px');
+}
+main .adresses-box .item .box .icon.workshop::after{
+	@include sprite('-156px -83px');
+}
+main .adresses-box .item .box .icon.warehouse::after{
+	@include sprite('-123px -82px');
+}
+
+main .adresses-box .item .box .data{
+	width: calc(100% - 96px);
+	float: right;
+}
+
+main .adresses-box .item .box .data h2{
+	@include makeNull;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+main .adresses-box .item:hover .box .data h2{
+	color: $color3;
+}
+
+main .adresses-box .data p{
+	@include makeNull;
+	padding-top: 8px;
+	color: $color2;
+}
+
+main .products-box{
+	@include makeNull;
+}
+
+main .products-box .center h2{
+	@include makeNull;
+	padding: 32px 0;
+	color: $color2;
+}
+
+main .products-box .center .products{
+	@include makeNull;
+}
+
+main .products-box .center .products .item{
+	@include makeNull;
+	width: 100%;
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+main .products-box .center .products .item a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+}
+
+main .products-box .center .products .item::before{
+	@include makeNull;
+	content: "";
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: solid 1px $color2;
+	pointer-events: none;
+	z-index: 10;
+	@include trans('border-color', '600ms');
+}
+
+main .products-box .center .products .item::before{
+	border-color: $color3;
+}
+
+main .products-box .center .products .item .image-box{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+main .products-box .center .products .item .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	@include trans('transform', '600ms');
+}
+
+main .products-box .center .products .item:hover .image-box .image{
+	transform: scale(1.1);
+}
+
+main .products-box .center .products .item .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0;
+}
+
+main .products-box .center .products .item .image-box .compare{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 2;
+	background-color: $white;
+	text-indent: -9999px;
+	@include trans('background-color', '600ms');
+}
+
+main .products-box .center .products .item:hover .image-box .compare{
+	background-color: $color3;
+}
+
+main .products-box .center .products .item .image-box .compare::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 10px);
+	background-color: $color2;
+	@include sprite('-189px -3px');
+	@include trans('background-color', '600ms');
+}
+
+main .products-box .center .products .item:hover .image-box .compare::after{
+	background-color: $white;
+}
+
+main .products-box .center .products .item .content{
+	@include makeNull;
+	padding: 20px;
+}
+
+main .products-box .center .products .item .content h3{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 8px;
+	@include trans('color', '600ms');
+}
+
+main .products-box .center .products .item:hover .content h3{
+	color: $color3;
+}
+
+main .products-box .center .products .item .content .data{
+	@include makeNull;
+}
+
+main .products-box .center .products .item .content .data p,
+main .products-box .center .products .item .content .data p strong,
+main .products-box .center .products .item .content .data p span{
+	@include makeNull;
+	color: $color2;
+}
+
+main .products-box .center .products .item .content .bottom{
+	@include makeNull;
+	padding-top: 15px;
+}
+
+main .products-box .center .products .item .content .bottom .price-box{
+	@include makeNull;
+	height: 24px;
+	display: inline-block;
+}
+
+main .products-box .center .products .item .content .bottom .price-box p{
+	@include makeNull;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+main .products-box .center .products .item:hover .content .bottom .price-box p{
+	color: $color3;
+}
+
+main .products-box .center .products .item .content .bottom .price-box p.price{
+	margin-top: 4px;
+}
+
+main .products-box .center .products .item .content .bottom .btns{
+	@include makeNull;
+	display: inline-block;
+	float: right;
+	margin-top: 4px;
+}
+
+main .products-box .center .products .item .content .bottom .btns button{
+	@include makeNull;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid rgba(136, 137, 137, 0.10);
+	background-color: white;
+	position: relative;
+	margin-right: 8px;
+	text-indent: -9999px;
+	@include trans('background-color, border-color', '600ms');
+}
+
+main .products-box .center .products .item:hover .content .bottom .btns button{
+	background-color: $color3;
+	border-color: $color3;
+}
+
+main .products-box .center .products .item .content .bottom .btns button:last-child{
+	margin-right: 0px;
+}
+
+main .products-box .center .products .item .content .bottom .btns button::after{
+	@include makeNull;
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: calc(50% - 8px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .products-box .center .products .item:hover .content .bottom .btns button::after{
+	background-color: $white;
+}
+
+main .products-box .center .products .item .content .bottom .btns button.favourite::after{
+	@include sprite('-227px -5px');
+}
+
+main .products-box .center .products .item .content .bottom .btns button.cart::after{
+	@include sprite('-210px -5px');
 }
