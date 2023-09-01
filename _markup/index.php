@@ -92,7 +92,7 @@ $version = "1.0.2";
 				</div>
 
 				<div class="navigation-box">
-					<div class="main">
+					<nav class="main">
 						<ul>
 							<li><a href="javascript:void(0)" data-type="page1">ავეჯის აქსესუარები</a></li>
 							<li><a href="javascript:void(0)" data-type="page2">ავეჯის მასალა</a></li>
@@ -104,7 +104,7 @@ $version = "1.0.2";
 							<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
 							<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
 						</ul>
-					</div>
+					</nav>
 
 					<div class="sub-category">
 						<div class="sub" id="page1">
@@ -1114,7 +1114,60 @@ $version = "1.0.2";
 </main>
 
 <footer>
+	<div class="center top">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="" class="footer-logo">logo</a>
+				<p class="copyright">© ყველა უფლება დაცულია 2020 წელი, ბათუმი</p>
 
+				<div class="social-box">
+					<h3>სოციალური ქსელი</h3>
+					<ul>
+						<li><a href="" class="facebook">facebook</a></li>
+						<li><a href="" class="instagram">instagram</a></li>
+						<li><a href="" class="googlePlus">googlePlus</a></li>
+						<li><a href="" class="whatsapp">whatsapp</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<h3>მენიუ</h3>
+				<nav class="footer-menu">
+					<ul>
+						<li><a href="">ავტორიზაცია / რეგისტრაცია</a></li>
+						<li><a href="">კატალოგი</a></li>
+						<li><a href="">მისამართები</a></li>
+						<li><a href="">ბლოგი</a></li>
+						<li><a href="">სურვილების სია</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-md-4">
+				<h3>საკონტაქტო ინფორმაცია</h3>
+				<p class="address">ბათუმი, საქართველო ბაგრატიონის ქუჩა #109</p>
+				<p class="phone"><a href="">+995 0 422 22 11 22</a></p>
+
+				<div class="link-year">
+					<p>WWW.MAXIMA.GE - 2022-2023</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="shindi-box">
+		<div class="center">
+			<div class="row">
+				<div class="col-md-6">
+					<p>POWERED BY <a href="https://shindi.ge" target="_blank">SHINDI.COM</a></p>
+				</div>
+				<div class="col-md-6">
+					<div class="shindi-logo">
+						<a href="" class="shindi">shindi</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </footer>
 
 
@@ -1123,7 +1176,7 @@ $version = "1.0.2";
 <script src="/_markup/assets/lightbox/jquery.lightbox.js"></script>
 <script src="/_markup/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="/_markup/assets/js/owl.carousel.min.js"></script>
-<script src="/_markup/assets/js/main.js?v=<?=$version?>"></script>
+<script src="/_markup/assets/js/compressed.js?v=<?=$version?>"></script>
 <script src="/_markup/assets/aos/aos.js"></script>
 </body>
 

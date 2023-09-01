@@ -754,6 +754,7 @@ main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .ite
 	width: 200px;
 	height: 100%;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	float: left;
 	margin-right: 75px;
@@ -772,7 +773,7 @@ main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .ite
 
 main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .item .brand img{
 	@include makeNull;
-	width: 100%;
+	width: 125px;
 	object-fit: contain;
 	object-position: center;
 }
@@ -1054,6 +1055,12 @@ main .adresses-box .data p{
 
 main .products-box{
 	@include makeNull;
+	opacity: 0;
+	@include trans('opacity', '1600ms');
+}
+
+main .products-box.g-visible{
+	opacity: 1;
 }
 
 main .products-box .center h2{
@@ -1171,6 +1178,7 @@ main .products-box .center .products .item .image-box .discount{
 	position: absolute;
 	top: 20px;
 	left: 20px;
+	opacity: 1 !important;
 	z-index: 2;
 	background-color: $color1;
 	color: $white;
@@ -1295,6 +1303,12 @@ main .products-box .center .products .item .content .bottom .btns button.cart::a
 
 main .discount{
 	@include makeNull;
+	opacity: 0;
+	@include trans('opacity', '1600ms');
+}
+
+main .discount.g-visible{
+	opacity: 1;
 }
 
 main .discount #discount-slider{
@@ -1558,6 +1572,12 @@ main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .con
 
 main .news{
 	@include makeNull;
+	opacity: 0;
+	@include trans('opacity', '1600ms');
+}
+
+main .news.g-visible{
+	opacity: 1;
 }
 
 main .news .center .title-box{
@@ -1695,6 +1715,12 @@ main .news .news-slider-box .text-container .center .right{
 /*brands*/
 main .brands{
 	@include makeNull;
+	opacity: 0;
+	@include trans('opacity', '1600ms');
+}
+
+main .brands.g-visible{
+	opacity: 1;
 }
 
 main .brands .center .title-box{
@@ -1802,4 +1828,259 @@ main .brands .center .brand-slider .wrapper .item .image-box img{
 	@include makeNull;
 	width: 100%;
 	opacity: 0;
+}
+
+footer{
+	@include makeNull;
+	opacity: 0;
+	@include trans('opacity', '1600ms');
+}
+
+footer.g-visible{
+	opacity: 1;
+}
+
+footer .top{
+	position: relative;
+	padding-top: 60px;
+}
+
+footer .top::before{
+	content: "";
+	width: 100%;
+	height: 1px;
+	background-color: $color2;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+footer .top .footer-logo{
+	@include makeNull;
+	content: "";
+	width: 256px;
+	height: 45px;
+	display: block;
+	text-indent: -9999px;
+	@include sprite('-2px -28px', 'true');
+	transform: scale(0.71);
+	transform-origin: left;
+}
+
+footer .top .copyright{
+	@include makeNull;
+	color: $color2;
+	margin-top: 20px;
+	width: 240px;
+}
+
+footer .top h3{
+	@include makeNull;
+	width: 100%;
+	height: 34px;
+	position: relative;
+	color: $color2;
+}
+
+footer .top h3::after{
+	content: "";
+	width: 32px;
+	height: 1px;
+	background-color: $color2;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+footer .top .social-box ul{
+	@include makeNull;
+	list-style-type: none;
+	margin-top: 15px;
+}
+
+footer .top .social-box ul li{
+	@include makeNull;
+	float: left;
+	margin-right: 24px;
+}
+
+footer .top .social-box ul li a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+	text-indent: -9999px;
+	width: 32px;
+	height: 32px;
+	border-radius: 3px;
+	background-color: $color3;
+	position: relative;
+	@include trans('background-color', '600ms');
+}
+
+footer .top .social-box ul li a:hover{
+	background-color: $color1;
+}
+
+footer .top .social-box ul li a::after{
+	content: "";
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: calc(50% - 13px);
+	left: calc(50% - 13px);
+	background-color: $white;
+}
+
+footer .top .social-box ul li a.facebook::after{
+	@include sprite('-2px -115px');
+}
+
+footer .top .social-box ul li a.instagram::after{
+	@include sprite('-31px -117px');
+}
+
+footer .top .social-box ul li a.googlePlus::after{
+	@include sprite('-65px -116px');
+}
+
+footer .top .social-box ul li a.whatsapp::after{
+	@include sprite('-99px -117px');
+}
+
+footer .top .social-box h3{
+	margin-top: 40px;
+}
+
+footer .top .footer-menu{
+	@include makeNull;
+	margin-top: 15px;
+}
+
+footer .top .footer-menu ul{
+	@include makeNull;
+	list-style-type: none;
+}
+
+footer .top .footer-menu ul li{
+	@include makeNull;
+	display: block;
+	margin-bottom: 20px;
+}
+
+footer .top .footer-menu ul li:last-child{
+	margin-bottom: 0;
+}
+
+footer .top .footer-menu ul li a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+footer .top .footer-menu ul li a:hover{
+	color: $color3;
+}
+
+footer .top .address{
+	@include makeNull;
+	margin-top: 15px;
+	color: $color2;
+	margin-bottom: 20px;
+}
+
+footer .top .phone{
+	@include makeNull;
+}
+
+footer .top .phone a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+footer .top .phone a:hover{
+	color: $color3;
+}
+
+footer .col-md-4{
+	position: relative;
+}
+
+footer .top .link-year{
+	@include makeNull;
+	display: inline-block;
+	position: absolute;
+	left: 15px;
+	bottom: 0;
+	padding-top: 15px;
+	border-top: solid 1px $color2;
+}
+
+footer .top .link-year p{
+	@include makeNull;
+	color: $color2;
+}
+
+footer .shindi-box{
+	@include makeNull;
+	margin-top: 55px;
+	width: 100%;
+	height: 32px;
+	background-color: $color3;
+}
+
+footer .shindi-box .center p{
+	@include makeNull;
+	color: $white;
+	text-align: left;
+}
+
+footer .shindi-box .center p a{
+	@include makeNull;
+	color: $white;
+	text-align: left;
+	display: inline-block;
+	text-decoration: none;
+	@include trans('color', '600ms');
+}
+
+footer .shindi-box .center p a:hover{
+	color: $color1;
+}
+
+footer .shindi-box .center .shindi-logo{
+	display: flex;
+	align-items: center;
+	width: 50px;
+	height: 32px;
+	float: right;
+}
+
+footer .shindi-box .center .shindi-logo .shindi{
+	@include makeNull;
+	float: right;
+	width: 50px;
+	height: 22px;
+	text-indent: -9999px;
+	position: relative;
+}
+
+footer .shindi-box .center .shindi-logo .shindi::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	@include sprite('-138px -119px');
+	background-color: $white;
+	@include trans('background-color', '600ms');
+}
+
+footer .shindi-box .center .shindi-logo .shindi:hover::after{
+	background-color: $color1;
 }
