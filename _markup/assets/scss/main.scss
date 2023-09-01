@@ -1147,6 +1147,10 @@ main .products-box .center .products .item:hover .image-box .compare{
 	background-color: $color3;
 }
 
+main .products-box .center .products .item .image-box .compare:hover{
+	background-color: $color1;
+}
+
 main .products-box .center .products .item .image-box .compare::after{
 	content: "";
 	width: 20px;
@@ -1156,6 +1160,21 @@ main .products-box .center .products .item .image-box .compare::after{
 	left: calc(50% - 10px);
 	background-color: $color2;
 	@include sprite('-189px -3px');
+	@include trans('background-color', '600ms');
+}
+
+main .products-box .center .products .item .image-box .discount{
+	@include makeNull;
+	width: 56px;
+	height: 56px;
+	border-radius: 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+	background-color: $color1;
+	color: $white;
+	text-align: center;
 	@include trans('background-color', '600ms');
 }
 
@@ -1241,6 +1260,11 @@ main .products-box .center .products .item:hover .content .bottom .btns button{
 	border-color: $color3;
 }
 
+main .products-box .center .products .item .content .bottom .btns button:hover{
+	background-color: $color1;
+	border-color: $color1;
+}
+
 main .products-box .center .products .item .content .bottom .btns button:last-child{
 	margin-right: 0px;
 }
@@ -1267,4 +1291,515 @@ main .products-box .center .products .item .content .bottom .btns button.favouri
 
 main .products-box .center .products .item .content .bottom .btns button.cart::after{
 	@include sprite('-210px -5px');
+}
+
+main .discount{
+	@include makeNull;
+}
+
+main .discount #discount-slider{
+	@include makeNull;
+	height: 720px; /* 663px */
+	position: relative;
+}
+
+main .discount #discount-slider .owl-nav{
+	@include makeNull;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 285px;
+	left: 0;
+	z-index: 100;
+}
+
+main .discount #discount-slider .owl-nav button{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	margin: 0 15px;
+	background-color: $white;
+	text-indent: -9999px;
+	position: relative;
+	border-radius: 5px;
+	@include trans('background-color', '600ms');
+}
+
+main .discount #discount-slider .owl-nav button::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .discount #discount-slider .owl-nav button.owl-prev{
+	float: left;
+}
+
+main .discount #discount-slider .owl-nav button.owl-next{
+	float: right;
+}
+
+main .discount #discount-slider .owl-nav button.owl-prev::after{
+	@include sprite('-149px -2px');
+}
+
+main .discount #discount-slider .owl-nav button.owl-next::after{
+	transform: rotate(180deg);
+	@include sprite('-149px -2px');
+}
+
+main .discount #discount-slider .owl-nav button:hover{
+	background-color: $color3;
+}
+
+main .discount #discount-slider .owl-nav button:hover::after{
+	background-color: $white;
+}
+
+main .discount #discount-slider .owl-dots{
+	@include makeNull;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 220px;
+	z-index: 100;
+	text-align: center;
+}
+
+main .discount #discount-slider .owl-dots .owl-dot{
+	@include makeNull;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: $white;
+	margin: 0 15px;
+	display: inline-block;
+}
+
+main .discount #discount-slider .owl-dots .owl-dot.active{
+	transform: scale(1.25);
+}
+
+main .discount #discount-slider .owl-stage-outer{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage{
+	height: 100%;
+	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item{
+	height: 100%;
+	height: 600px;
+	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .image-box{
+	@include makeNull;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content{
+	@include makeNull;
+	width: 100%;
+	height: 160px;
+	position: absolute;
+	bottom: -80px;
+	z-index: 2;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box{
+	@include makeNull;
+	width: 100%;
+	height: 160px;
+	padding: 40px 80px;
+	position: relative;
+	background-color: $white;
+	overflow: hidden;
+	box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box::after{
+	content: "";
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: solid 1px $color2;
+	pointer-events: none;
+	z-index: 100;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .brand{
+	@include makeNull;
+	width: 160px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	float: left;
+	margin-right: 80px;
+	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .brand::after{
+	content: "";
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	right: -80px;
+	top: 0;
+	background-color: $color2;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .brand img{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: center;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .title{
+	@include makeNull;
+	margin-left: 80px;
+	display: flex;
+	width: 675px;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .title::after{
+	content: "";
+	width: 1px;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: $color2;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .title .wrapper{
+	@include makeNull;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .title .wrapper h2{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 20px;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .title .wrapper p{
+	@include makeNull;
+	color: $color2;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price{
+	@include makeNull;
+	float: right;
+	display: flex;
+	height: 100%;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price .wrapper{
+	@include makeNull;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price .wrapper .old-price{
+	@include makeNull;
+	text-align: right;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price .wrapper .old-price strike{
+	@include makeNull;
+	color: $color2;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price .wrapper .new-price{
+	@include makeNull;
+	text-align: right;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .content .center .box .price .wrapper .new-price span{
+	@include makeNull;
+	color: $color1;
+}
+
+main .news{
+	@include makeNull;
+}
+
+main .news .center .title-box{
+	@include makeNull;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+main .news .center .title-box h2{
+	@include makeNull;
+	float: left;
+	color: $color2;
+} 
+
+main .news .center .title-box .btns{
+	@include makeNull;
+	float: right;
+}
+
+main .news .center .title-box .btns button{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	margin-right: 11px;
+	background-color: rgba(136, 137, 137, 0.1);
+	text-indent: -9999px;
+	position: relative;
+	border-radius: 5px;
+	@include trans('background-color', '600ms');
+}
+
+main .news .center .title-box .btns button:last-child{
+	margin-right: 0px;
+}
+
+main .news .center .title-box .btns button::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .news .center .title-box .btns button.prev::after{
+	@include sprite('-149px -2px');
+}
+
+main .news .center .title-box .btns button.next::after{
+	transform: rotate(180deg);
+	@include sprite('-149px -2px');
+}
+
+main .news .center .title-box .btns button:hover{
+	background-color: $color3;
+}
+
+main .news .center .title-box .btns button:hover::after{
+	background-color: $white;
+}
+
+main .news .news-slider-box{
+	@include makeNull;
+	width: 100%;
+	height: 420px;
+	position: relative;
+}
+
+main .news .news-slider-box #news-pic-slider{
+	@include makeNull;
+	width: 100%;
+	height: 420px;
+}
+
+main .news .news-slider-box #news-pic-slider .owl-stage-outer{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+main .news .news-slider-box #news-pic-slider .owl-stage-outer .owl-stage{
+	height: 100%;
+	position: relative;
+}
+
+main .news .news-slider-box #news-pic-slider .owl-stage-outer .owl-stage .owl-item{
+	height: 100%;
+	position: relative;
+}
+
+main .news .news-slider-box #news-pic-slider .owl-stage-outer .owl-stage .owl-item .item{
+	display: block;
+	text-decoration: none;
+}
+
+main .news .news-slider-box .text-container{
+	@include makeNull;
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	bottom: 40px;
+	z-index: 100;
+}
+
+main .news .news-slider-box .text-container .center .text{
+	@include makeNull;
+	width: 600px;
+	height: 60px;
+	display: block;
+	text-decoration: none;
+	background-color: $white;
+	color: $color2;
+	padding: 0 40px;
+	@include trans('background-color, color', '600ms');
+}
+
+main .news .news-slider-box .text-container .center .text:hover{
+	background-color: $color3;
+	color: $white;
+}
+
+main .news .news-slider-box .text-container .center .left{
+	float: left;
+	text-align: left;
+}
+
+main .news .news-slider-box .text-container .center .right{
+	float: right;
+	text-align: right;
+}
+
+/*brands*/
+main .brands{
+	@include makeNull;
+}
+
+main .brands .center .title-box{
+	@include makeNull;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+main .brands .center .title-box h2{
+	@include makeNull;
+	float: left;
+	color: $color2;
+} 
+
+main .brands .center .title-box .btns{
+	@include makeNull;
+	float: right;
+}
+
+main .brands .center .title-box .btns button{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	margin-right: 11px;
+	background-color: rgba(136, 137, 137, 0.1);
+	text-indent: -9999px;
+	position: relative;
+	border-radius: 5px;
+	@include trans('background-color', '600ms');
+}
+
+main .brands .center .title-box .btns button:last-child{
+	margin-right: 0px;
+}
+
+main .brands .center .title-box .btns button::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .brands .center .title-box .btns button.prev::after{
+	@include sprite('-149px -2px');
+}
+
+main .brands .center .title-box .btns button.next::after{
+	transform: rotate(180deg);
+	@include sprite('-149px -2px');
+}
+
+main .brands .center .title-box .btns button:hover{
+	background-color: $color3;
+}
+
+main .brands .center .title-box .btns button:hover::after{
+	background-color: $white;
+}
+
+main .brands .center .brand-slider{
+	@include makeNull;
+	width: 100%;
+	padding-top: 40px;
+	overflow: hidden;
+}
+
+main .brands .center .brand-slider .wrapper{
+	@include makeNull;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main .brands .center .brand-slider .wrapper .item{
+	@include makeNull;
+	width: 240px;
+	flex-basis: 240px;
+	height: 240px;
+	display: block;
+}
+
+main .brands .center .brand-slider .wrapper .item .image-box{
+	@include makeNull;
+	width: 200px;
+	height: 200px;
+	float: left;
+	border:solid 1px $color2;
+	border-radius: 16px;
+	background-size: 120px;
+	background-position: center;
+	background-repeat: no-repeat;
+	@include trans('transform, border-color', '600ms');
+}
+
+main .brands .center .brand-slider .wrapper .item:hover .image-box{
+	transform: translateY(-25px);
+	border-color: $color3;
+}
+
+main .brands .center .brand-slider .wrapper .item .image-box img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0;
 }

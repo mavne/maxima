@@ -810,6 +810,8 @@ $version = "1.0.2";
 									</div>
 								</a>
 								<button type="button" class="compare">compare</button>
+
+								<div class="discount">30%</div>
 							</div>
 
 							<div class="content">
@@ -846,6 +848,269 @@ $version = "1.0.2";
 			</div>
 		</div>
 	</section>	
+
+	<section class="discount">
+		<div class="owl-carousel owl-theme" id="discount-slider">
+
+			<div class="item">
+				<div class="image-box">
+					<div class="image" style="background-image: url('/_markup/assets/img/discount.png');">
+						<img src="/_markup/assets/img/discount.png" alt="" loading="lazy">
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="center">
+						<div class="box">
+							<div class="brand">
+								<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">
+							</div>
+
+							<div class="title">
+								<div class="wrapper">
+									<h2>იატაკის ლამინირებული საფარი</h2>
+									<p>კოდი: 96735 / ფერი: ანტიკური ოქრო</p>
+								</div>
+							</div>
+
+							<div class="price">
+								<div class="wrapper">
+									<div class="old-price">
+										<strike>180.33 ₾</strike>
+									</div>
+									<div class="new-price">
+										<span>120.33 ₾</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image-box">
+					<div class="image" style="background-image: url('/_markup/assets/img/004.jpeg');">
+						<img src="/_markup/assets/img/004.jpeg" alt="" loading="lazy">
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="center">
+						<div class="box">
+							<div class="brand">
+								<img src="/_markup/assets/img/future.png" alt="" loading="lazy">
+							</div>
+
+							<div class="title">
+								<div class="wrapper">
+									<h2>პრიდქტი 1</h2>
+									<p>კოდი: 96735 / ზომა: 500 მმ / ფერი: ანტიკური ოქრო</p>
+								</div>
+							</div>
+
+							<div class="price">
+								<div class="wrapper">
+									<div class="old-price">
+										<strike>11.33 ₾</strike>
+									</div>
+									<div class="new-price">
+										<span>10.33 ₾</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="item">
+				<div class="image-box">
+					<div class="image" style="background-image: url('/_markup/assets/img/005.jpeg');">
+						<img src="/_markup/assets/img/005.jpeg" alt="" loading="lazy">
+					</div>
+				</div>
+
+				<div class="content">
+					<div class="center">
+						<div class="box">
+							<div class="brand">
+								<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">
+							</div>
+
+							<div class="title">
+								<div class="wrapper">
+									<h2>იატაკის 3</h2>
+									<p>კოდი: 96735 / ზომა: 500 მმ</p>
+								</div>
+							</div>
+
+							<div class="price">
+								<div class="wrapper">
+									<div class="old-price">
+										<strike>18.33 ₾</strike>
+									</div>
+									<div class="new-price">
+										<span>12.33 ₾</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="news">
+		<div class="center">
+			<div class="title-box">
+				<h2>სიახლეები</h2>
+
+				<div class="btns">
+					<button type="button" class="prev">prev</button>
+					<button type="button" class="next">next</button>
+				</div>
+
+				<div class="clearer"></div>
+			</div>
+		</div>
+
+		<div class="news-slider-box">
+				<div class="owl-carousel owl-theme" id="news-pic-slider">
+					<a href="https://google.com" class="item" data-text="ტრენდული ფერთა პალიტრა 2023">
+						<div class="image-box">
+							<div class="image" style="background-image:url('/_markup/assets/img/004.jpeg')">
+								<img src="/_markup/assets/img/004.jpeg" alt="" loading="lazy">
+							</div>
+						</div>
+					</a>
+
+					<a href="https://facebook.com" class="item" data-text="როგორ შევარჩიოთ მატრასი?">
+						<div class="image-box">
+							<div class="image" style="background-image:url('/_markup/assets/img/005.jpeg')">
+								<img src="/_markup/assets/img/005.jpeg" alt="" loading="lazy">
+							</div>
+						</div>
+					</a>
+
+					<a href="https://gmail.com" class="item" data-text="ტექსტი 3">
+						<div class="image-box">
+							<div class="image" style="background-image:url('/_markup/assets/img/006.jpeg')">
+								<img src="/_markup/assets/img/006.jpeg" alt="" loading="lazy">
+							</div>
+						</div>
+					</a>
+
+					<a href="https://instagram.com" class="item" data-text="ტექსტი 4 ტესტ">
+						<div class="image-box">
+							<div class="image" style="background-image:url('/_markup/assets/img/007.jpg')">
+								<img src="/_markup/assets/img/007.jpg" alt="" loading="lazy">
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="text-container">
+					<div class="center">
+						<a href="https://google.com" class="text left">ტრენდული ფერთა პალიტრა 2023</a>
+						<a href="https://facebook.com" class="text right">როგორ შევარჩიოთ მატრასი?</a>
+					</div>
+				</div>
+			</div>
+	</section>
+
+	<section class="brands">
+		<div class="center">
+			<div class="title-box">
+				<h2>ბრენდები</h2>
+
+				<div class="btns">
+					<button type="button" class="prev" id="scroll-left-button">prev</button>
+					<button type="button" class="next" id="scroll-right-button">next</button>
+				</div>
+
+				<div class="clearer"></div>
+			</div>
+
+			<div class="brand-slider" id="scroll-container">
+				<div class="wrapper">
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand.png');">
+							<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/disney.png');">
+							<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/future.png');">
+							<img src="/_markup/assets/img/future.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand2.png');">
+							<img src="/_markup/assets/img/brand2.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand3.png');">
+							<img src="/_markup/assets/img/brand3.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand4.png');">
+							<img src="/_markup/assets/img/brand4.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand.png');">
+							<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/disney.png');">
+							<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/future.png');">
+							<img src="/_markup/assets/img/future.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand2.png');">
+							<img src="/_markup/assets/img/brand2.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand3.png');">
+							<img src="/_markup/assets/img/brand3.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+
+					<a href="" class="item">
+						<div class="image-box" style="background-image: url('/_markup/assets/img/brand4.png');">
+							<img src="/_markup/assets/img/brand4.png" alt="" loading="lazy">	
+						</div>					
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
 </main>
 
 <footer>
