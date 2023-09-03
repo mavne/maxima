@@ -2084,3 +2084,325 @@ footer .shindi-box .center .shindi-logo .shindi::after{
 footer .shindi-box .center .shindi-logo .shindi:hover::after{
 	background-color: $color1;
 }
+
+/* purchase  */
+main .similar-products{
+	@include makeNull;
+}
+
+main .similar-products .center .title-box{
+	@include makeNull;
+	width: 100%;
+	margin-top: 40px;
+	margin-bottom: 0;
+}
+
+main .similar-products .center .title-box h2{
+	@include makeNull;
+	float: left;
+	color: $color2;
+} 
+
+main .similar-products .center .title-box .btns{
+	@include makeNull;
+	float: right;
+}
+
+main .similar-products .center .title-box .btns button{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	margin-right: 11px;
+	background-color: rgba(136, 137, 137, 0.1);
+	text-indent: -9999px;
+	position: relative;
+	border-radius: 5px;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center .title-box .btns button:last-child{
+	margin-right: 0px;
+}
+
+main .similar-products .center .title-box .btns button::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center .title-box .btns button.prev::after{
+	@include sprite('-149px -2px');
+}
+
+main .similar-products .center .title-box .btns button.next::after{
+	transform: rotate(180deg);
+	@include sprite('-149px -2px');
+}
+
+main .similar-products .center .title-box .btns button:hover{
+	background-color: $color3;
+}
+
+main .similar-products .center .title-box .btns button:hover::after{
+	background-color: $white;
+}
+
+main .similar-products .center #similar-products-slider{
+	@include makeNull;
+	margin-top: 40px;
+}
+
+main .similar-products .center #similar-products-slider .owl-stage-outer{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+main .similar-products .center #similar-products-slider .owl-stage-outer .owl-stage{
+	height: 100%;
+	position: relative;
+}
+
+main .similar-products .center #similar-products-slider .owl-stage-outer .owl-stage .owl-item{
+	height: 100%;
+	position: relative;
+}
+
+main .similar-products .center #similar-products-slider .owl-stage-outer .owl-stage .owl-item .item{
+	height: 100%;
+	position: relative;
+}
+
+main .similar-products .center #similar-products-slider .item{
+	@include makeNull;
+	width: 100%;
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+main .similar-products .center #similar-products-slider .item a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+}
+
+main .similar-products .center #similar-products-slider .item::before{
+	@include makeNull;
+	content: "";
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: solid 1px $color2;
+	pointer-events: none;
+	z-index: 10;
+	@include trans('border-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item::before{
+	border-color: $color3;
+}
+
+main .similar-products .center #similar-products-slider .item .image-box{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	@include trans('transform', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .image-box .image{
+	transform: scale(1.1);
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0;
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .compare{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 2;
+	background-color: $white;
+	text-indent: -9999px;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .image-box .compare{
+	background-color: $color3;
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .compare:hover{
+	background-color: $color1;
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .compare::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 10px);
+	background-color: $color2;
+	@include sprite('-189px -3px');
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item .image-box .discount{
+	@include makeNull;
+	width: 56px;
+	height: 56px;
+	border-radius: 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	opacity: 1 !important;
+	z-index: 2;
+	background-color: $color1;
+	color: $white;
+	text-align: center;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .image-box .compare::after{
+	background-color: $white;
+}
+
+main .similar-products .center #similar-products-slider .item .content{
+	@include makeNull;
+	padding: 20px;
+}
+
+main .similar-products .center #similar-products-slider .item .content h3{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 8px;
+	@include trans('color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .content h3{
+	color: $color3;
+}
+
+main .similar-products .center #similar-products-slider .item .content .data{
+	@include makeNull;
+}
+
+main .similar-products .center #similar-products-slider .item .content .data p,
+main .similar-products .center #similar-products-slider .item .content .data p strong,
+main .similar-products .center #similar-products-slider .item .content .data p span{
+	@include makeNull;
+	color: $color2;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom{
+	@include makeNull;
+	padding-top: 15px;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .price-box{
+	@include makeNull;
+	height: 24px;
+	display: inline-block;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .price-box p{
+	@include makeNull;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .content .bottom .price-box p{
+	color: $color3;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .price-box p.price{
+	margin-top: 4px;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns{
+	@include makeNull;
+	display: inline-block;
+	float: right;
+	margin-top: 4px;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button{
+	@include makeNull;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid rgba(136, 137, 137, 0.10);
+	background-color: white;
+	position: relative;
+	margin-right: 8px;
+	text-indent: -9999px;
+	@include trans('background-color, border-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .content .bottom .btns button{
+	background-color: $color3;
+	border-color: $color3;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button:hover{
+	background-color: $color1;
+	border-color: $color1;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button:last-child{
+	margin-right: 0px;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button::after{
+	@include makeNull;
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: calc(50% - 8px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item:hover .content .bottom .btns button::after{
+	background-color: $white;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button.favourite::after{
+	@include sprite('-227px -5px');
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns button.cart::after{
+	@include sprite('-210px -5px');
+}

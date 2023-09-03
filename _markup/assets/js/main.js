@@ -378,6 +378,51 @@ class Brands{
 	}
 }
 
+class PurchasePage{
+	constructor() {
+        this.owl;
+    }
+
+	similarProductSliderInit(){
+		this.owl = $('main .similar-products .center #similar-products-slider').owlCarousel({
+		    autoplay: true,
+		    autoplayTimeout: 10000,
+		    smartSpeed: 1500,
+		    loop: true,
+		    margin: 30,
+		    nav: false,
+		    dots: false,
+		    responsive: {
+		        0: {
+		            items: 1
+		        },
+		        600: {
+		            items: 1
+		        },
+		        1000: {
+		            items: 4
+		        }
+		    }
+		});
+	}
+
+	buttonClickinit(){
+		var that = this;
+		$(document).on('click', 'main .similar-products .center .title-box .btns button.prev', function(){
+			that.owl.trigger('prev.owl.carousel');
+		});
+
+		$(document).on('click', 'main .similar-products .center .title-box .btns button.next', function(){
+			that.owl.trigger('next.owl.carousel');
+		});
+	}
+
+	run(){
+		this.similarProductSliderInit();
+		this.buttonClickinit();
+	}
+}
+
 /* VisiableTracker */
 var visiableTracker = new VisiableTracker;
 visiableTracker.run();
@@ -405,3 +450,7 @@ news.run();
 /* Brands */
 var brands = new Brands;
 brands.run();
+
+/* PurchasePage */
+var purchasePage = new PurchasePage;
+purchasePage.run();
