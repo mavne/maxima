@@ -423,6 +423,48 @@ class PurchasePage{
 	}
 }
 
+class RegisterAuthModal{
+	modalPopupInit(){
+		$(document).on('click', 'header .middle .center .right ul li a.profile', function(){
+			$('#g-auth-register').modal('show');
+		});
+
+		$(document).on('click', '#g-auth-register .close', function(){
+			$('#g-auth-register').modal('hide');
+		});
+	}
+
+	tabChangeInit(){
+		 $(document).on('click', '#myTab .nav-link', function (e) {
+            var activatedTab = $(e.target).attr('data-bs-target');
+            
+            if(activatedTab=="#auth"){
+            	$('#g-auth-register .modal-content .modal-body .right-side .image-box .image').css('background-image', 'url("'+tabs.tab1+'")');
+            	$('#g-auth-register .modal-content .modal-body .right-side .image-box .image img').attr('src', tabs.tab1);
+            }else{
+            	$('#g-auth-register .modal-content .modal-body .right-side .image-box .image').css('background-image', 'url("'+tabs.tab2+'")');
+            	$('#g-auth-register .modal-content .modal-body .right-side .image-box .image img').attr('src', tabs.tab2);
+            }
+        });
+	}
+
+	checkSavePassInit(){
+		$(document).on('click', '#g-auth-register .left-side .g-flex #myTabContent .tab-pane form .submit-box .save-pass', function(){
+			if($('#checked-save').prop('checked')){
+				$(this).addClass('checked');
+			}else{
+				$(this).removeClass('checked');
+			}
+		});
+	}
+
+	run(){
+		this.modalPopupInit();
+		this.tabChangeInit();
+		this.checkSavePassInit();
+	}
+}
+
 /* VisiableTracker */
 var visiableTracker = new VisiableTracker;
 visiableTracker.run();
@@ -454,3 +496,7 @@ brands.run();
 /* PurchasePage */
 var purchasePage = new PurchasePage;
 purchasePage.run();
+
+/* RegisterAuthModal */
+var registerAuthModal = new RegisterAuthModal;
+registerAuthModal.run();

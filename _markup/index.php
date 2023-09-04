@@ -18,6 +18,128 @@ $version = "1.0.2";
 </head>
 <body>
 
+<div class="modal" tabindex="-1" id="g-auth-register">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="left-side">
+        	<div class="g-flex">
+        		<h2>გამარჯობა!</h2>
+        		<p>გთხოვთ შეიყვანოთ თქვენი მონაცემები</p>
+
+        		<ul class="nav nav-tabs" id="myTab" role="tablist">
+				  <li class="nav-item" role="presentation">
+				    <button class="nav-link active" id="auth-tab" data-bs-toggle="tab" data-bs-target="#auth" type="button" role="tab" aria-controls="auth" aria-selected="true">ავტორიზაცია</button>
+				  </li>
+				  <li class="nav-item" role="presentation">
+				    <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false">რეგისტრაცია</button>
+				  </li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+				  <div class="tab-pane fade show active" id="auth" role="tabpanel" aria-labelledby="auth-tab">
+				  	<form action="" method="post">
+				  		<div class="input-box">
+				  			<label>ელ-ფოსტა</label>
+				  			<input type="email" name="email" value="">
+				  		</div>
+
+				  		<div class="input-box">
+				  			<label>პაროლი</label>
+				  			<input type="password" name="password" value="">
+				  		</div>
+
+				  		<div class="submit-box">
+				  			<div class="save-pass">
+				  				<label>
+				  					<div class="checkbox">
+				  						<input type="checkbox" name="checked-save" id="checked-save" value="1">
+				  					</div>
+				  					<span>პაროლის დამახსოვრება</span>
+				  				</label>
+				  			</div>
+
+				  			<div class="btns">
+				  				<button type="button" class="close">უკან დაბრუნება</button>
+				  				<button type="submit" class="submit-auth">ავტორიზაცია</button>
+				  			</div>
+				  		</div>
+
+				  		<div class="fb-gm-auth-box">
+				  			<h3><span>ავტორიზაცია</span></h3>
+
+				  			<div class="auth-btns">
+				  				<a href="" class="fb">fb</a>
+				  				<a href="" class="gm">gm</a>
+				  			</div>
+				  		</div>
+				  	</form>
+				  </div>
+				  <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+				  	<form action="" method="post">
+				  		<div class="input-box">
+				  			<label>ელ-ფოსტა</label>
+				  			<input type="email" name="email" value="">
+				  		</div>
+
+				  		<div class="input-box">
+				  			<label>პაროლი</label>
+				  			<input type="password" name="password" value="">
+				  		</div>
+
+				  		<div class="input-box">
+				  			<label>გაიმეორეთ პაროლი</label>
+				  			<input type="password" name="re-password" value="">
+				  		</div>
+
+				  		<div class="submit-box">
+				  			<div class="save-pass">
+				  				<label>
+				  					<span>გაქვთ ანგარიში? </span> <a href="javascript:void(0)" onclick="$('#auth-tab').click();">ავტორიზაცია</a>
+				  				</label>
+				  			</div>
+
+				  			<div class="btns">
+				  				<button type="button" class="close">უკან დაბრუნება</button>
+				  				<button type="submit" class="submit-auth">ავტორიზაცია</button>
+				  			</div>
+				  		</div>
+
+				  		<div class="fb-gm-auth-box">
+				  			<h3><span>ავტორიზაცია</span></h3>
+
+				  			<div class="auth-btns">
+				  				<a href="" class="fb">fb</a>
+				  				<a href="" class="gm">gm</a>
+				  			</div>
+				  		</div>
+				  	</form>
+				  </div>
+				</div>
+        	</div>
+        </div>
+        <div class="right-side">
+        	<div class="image-box">
+        		<div class="image" style="background-image:url('/_markup/assets/img/tab1.png');">
+        			<img src="/_markup/assets/img/tab1.png" alt="" loading="lazy">
+        		</div>
+
+        		<button type="button" class="close">close</button>
+        	</div>
+        </div>
+
+        <script>
+        	var tabs = {
+        		tab1:'/_markup/assets/img/tab1.png',
+        		tab2:'/_markup/assets/img/tab2.png',
+        	};
+        </script>
+
+        <div class="clearer"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <header>
 	<div class="top">
 		<div class="center">
@@ -65,7 +187,7 @@ $version = "1.0.2";
 					</li>
 
 					<li>
-						<a href="" class="profile">profile</a>
+						<a href="javascript:void(0)" class="profile">profile</a>
 					</li>
 
 					<li>
