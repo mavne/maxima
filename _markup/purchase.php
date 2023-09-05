@@ -50,7 +50,7 @@ $version = "1.0.2";
 
 				  		<div class="submit-box">
 				  			<div class="save-pass">
-				  				<label>
+				  				<label for="checked-save">
 				  					<div class="checkbox">
 				  						<input type="checkbox" name="checked-save" id="checked-save" value="1">
 				  					</div>

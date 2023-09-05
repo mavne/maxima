@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Inside Accordion</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="accordion" id="outerAccordion">
+        <!-- First Accordion Item -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="item1Heading">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item1Collapse" aria-expanded="true" aria-controls="item1Collapse">
+                    Outer Accordion Item 1
+                </button>
+            </h2>
+            <div id="item1Collapse" class="accordion-collapse collapse show" aria-labelledby="item1Heading">
+                <div class="accordion-body">
+                    <!-- Nested Accordion -->
+                    <div class="accordion" id="innerAccordion">
+                        <!-- Nested Accordion Item 1 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="innerItem1Heading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem1Collapse" aria-expanded="true" aria-controls="innerItem1Collapse">
+                                    Inner Accordion Item 1
+                                </button>
+                            </h2>
+                            <div id="innerItem1Collapse" class="accordion-collapse collapse show" aria-labelledby="innerItem1Heading">
+                                <div class="accordion-body">
+                                    Content for Inner Accordion Item 1
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Nested Accordion Item 2 -->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="innerItem2Heading">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem2Collapse" aria-expanded="true" aria-controls="innerItem2Collapse">
+                                    Inner Accordion Item 2
+                                </button>
+                            </h2>
+                            <div id="innerItem2Collapse" class="accordion-collapse collapse show" aria-labelledby="innerItem2Heading">
+                                <div class="accordion-body">
+                                    Content for Inner Accordion Item 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Nested Accordion -->
+                </div>
+            </div>
+        </div>
+        <!-- End of First Accordion Item -->
+
+        <!-- Second Accordion Item -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="item2Heading">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item2Collapse" aria-expanded="false" aria-controls="item2Collapse">
+                    Outer Accordion Item 2
+                </button>
+            </h2>
+            <div id="item2Collapse" class="accordion-collapse collapse" aria-labelledby="item2Heading">
+                <div class="accordion-body">
+                    Content for Outer Accordion Item 2
+                </div>
+            </div>
+        </div>
+        <!-- End of Second Accordion Item -->
+    </div>
+</div>
+
+<!-- Include Bootstrap JS (popper.js and bootstrap.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

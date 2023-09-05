@@ -342,7 +342,7 @@ main .similar-products .center #similar-products-slider .item .image-box .discou
 	line-height: 56px;
 }
 
-main .product-item .center .breadcrumbs ul li a{
+.breadcrumbs ul li a{
 	font-family: 'Roboto _Nusx';
 	font-size: 12px;
 	font-style: normal;
@@ -350,7 +350,7 @@ main .product-item .center .breadcrumbs ul li a{
 	line-height: 12px;
 }
 
-main .product-item .center .breadcrumbs ul li a::after{
+.breadcrumbs ul li a::after{
 	font-family: 'Roboto _Nusx';
 	font-size: 12px;
 	font-style: normal;
@@ -508,4 +508,71 @@ main .product-item .center .additional-data .data p{
 	font-style: normal;
 	font-weight: 400;
 	line-height: 20px;
+}
+
+.product-page main .product-section .left .box h2.title{
+	font-family: 'Roboto _Nusx';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 15px;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion-header .accordion-button{
+	font-family: 'Roboto _Nusx';
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form label span{
+	font-family: 'Roboto _Nusx';
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+
+.product-page main .product-section .right .products .item .content h3{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 15px;
+	line-height: 15px; 
+	font-style: normal;
+	font-weight: bold;	
+}
+
+.product-page main .product-section .right .products .item .content .data p,
+.product-page main .product-section .right .products .item .content .data p strong,
+.product-page main .product-section .right .products .item .content .data p span{
+	font-family: 'Roboto _Nusx';
+	font-size: 12px;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .price-box p{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 10px;
+	line-height: 10px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .price-box p.price{
+	font-family: 'Roboto _Nusx';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 20px;
+}
+
+.product-page main .product-section .right .products .item .image-box .discount{
+	font-family: 'Roboto _Nusx';
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
 }

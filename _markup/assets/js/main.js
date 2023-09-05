@@ -465,6 +465,23 @@ class RegisterAuthModal{
 	}
 }
 
+class ProductPage{
+	filterBox(){
+		$(document).on('click', '.product-page main .product-section .left .box .wrapper .accordion form label', function(){
+			var input = $('input', this).prop('checked');
+			if(input){
+				$(this).addClass('checked');
+			}else{
+				$(this).removeClass('checked');
+			}
+		});
+	}
+
+	run(){
+		this.filterBox();
+	}
+}
+
 /* VisiableTracker */
 var visiableTracker = new VisiableTracker;
 visiableTracker.run();
@@ -500,3 +517,7 @@ purchasePage.run();
 /* RegisterAuthModal */
 var registerAuthModal = new RegisterAuthModal;
 registerAuthModal.run();
+
+/* ProductPage */
+var productPage = new ProductPage;
+productPage.run();

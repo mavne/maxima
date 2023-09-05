@@ -2466,28 +2466,29 @@ main .product-item .center .image-box .image img{
 	opacity: 0
 }
 
-main .product-item .center .breadcrumbs{
+.breadcrumbs{
 	@include makeNull;
 	width: 100%;
+	position: relative;
 }
 
-main .product-item .center .breadcrumbs ul{
+.breadcrumbs ul{
 	@include makeNull;
 	list-style-type: none;
 }
 
-main .product-item .center .breadcrumbs ul li{
+.breadcrumbs ul li{
 	@include makeNull;
 	display: block;
 	margin-right: 2px;
 	float: left;
 }
 
-main .product-item .center .breadcrumbs ul li:last-child{
+.breadcrumbs ul li:last-child{
 	margin-right: 0;
 }
 
-main .product-item .center .breadcrumbs ul li a{
+.breadcrumbs ul li a{
 	@include makeNull;
 	display: block;
 	text-decoration: none;
@@ -2496,7 +2497,7 @@ main .product-item .center .breadcrumbs ul li a{
 	position: relative;
 }
 
-main .product-item .center .breadcrumbs ul li a::after{
+.breadcrumbs ul li a::after{
 	content: ">";
 	width: 10px;
 	height: 10px;
@@ -2505,7 +2506,7 @@ main .product-item .center .breadcrumbs ul li a::after{
 	right: 0;
 }
 
-main .product-item .center .breadcrumbs ul li:last-child a::after{
+.breadcrumbs ul li:last-child a::after{
 	content: none;
 }
 
@@ -3052,3 +3053,466 @@ main .product-item .center .additional-data .data p{
 #g-auth-register .modal-content .modal-body .left-side .g-flex #myTabContent .tab-pane form .fb-gm-auth-box .auth-btns a:hover::after{
 	opacity: 0.5;
 }
+
+.product-page main .product-section{
+	@include makeNull;
+}
+
+.product-page main .product-section .left{
+	@include makeNull;
+	width: 325px;
+	float: left;
+	margin-right: 40px;
+}
+
+.product-page main .product-section .left .box{
+	@include makeNull;
+	padding: 24px;
+}
+
+.product-page main .product-section .left .box h2.title{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 22px;
+}
+
+.product-page main .product-section .left .box .wrapper{
+	@include makeNull;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion-header{
+	@include makeNull;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion-header .accordion-button{
+	padding: 0px 8px;
+	background-color: transparent;
+	color: $color2;
+	border:none;
+	border-top: solid 1px rgba(136, 137, 137, 0.10);
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion-header .accordion-button:focus{
+	outline: 0;
+	border-color: unset;
+	box-shadow: unset;
+	border:none;
+	border-top: solid 1px rgba(136, 137, 137, 0.10);
+}
+
+.product-page main .product-section .left .box .wrapper .accordion-collapse{
+	border:none;
+}
+
+.accordion-button::after{
+	transform: scale(0.6);
+}
+
+.accordion-button:not(.collapsed)::after{
+	transform: rotate(180deg) scale(0.6);
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form{
+	@include makeNull;
+	width: 100%;
+}
+
+/* checkboxes START  */
+.product-page main .product-section .left .box .wrapper .accordion form label{
+	@include makeNull;
+	display: block;
+	width: 100%;
+	height: 12px;
+	margin-bottom: 10px;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form label .checkbox{
+	@include makeNull;
+	display: block;
+	width: 12px;
+	height: 12px;
+	border: solid 1px $color4;
+	float: left;
+	position: relative;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form label.checked .checkbox::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	@include sprite('-244px -8px');
+	background-color: $color4;
+	transform: scale(1.25);
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form label .checkbox input{
+	@include makeNull;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 100;
+}
+
+.product-page main .product-section .left .box .wrapper .accordion form label span{
+	@include makeNull;
+	float: left;
+	display: block;
+	color: $color2;
+	margin-left: 12px;
+}
+/* checkboxes END  */
+
+.product-page main .product-section .left .box .product-small{
+	@include makeNull;
+}
+
+.product-page main .product-section .left .box .product-small .item{
+	@include makeNull;
+	position: relative;
+	height: 100%;
+	padding-bottom: 16px;
+	margin-bottom: 16px;
+	border-bottom:solid 1px rgba(136, 137, 137, 0.10);
+}
+
+.product-page main .product-section .left .box .product-small .item .image-box{
+	@include makeNull;
+	width: 80px;
+	height: 80px;
+	position: relative;
+	float: left;
+}
+
+.product-page main .product-section .left .box .product-small .item .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	@include trans('transform', '600ms');
+}
+
+.product-page main .product-section .left .box .product-small .item:hover .image-box .image{
+	transform: scale(1.1);
+}
+
+.product-page main .product-section .left .box .product-small .item .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0;
+}
+
+.product-page main .product-section .left .box .product-small .item .content{
+	@include makeNull;
+	width: calc(100% - 96px);
+	float: right;
+}
+
+.product-page main .product-section .right{
+	@include makeNull;
+	width: calc(100% - 365px);
+	float: left;
+}
+
+/* product page product START  */
+.product-page main .product-section .right .products{
+	@include makeNull;
+}
+
+.product-page main .product-section .right .products .item{
+	@include makeNull;
+	width: 100%;
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.product-page main .product-section .right .products .item a{
+	@include makeNull;
+	display: block;
+	text-decoration: none;
+}
+
+.product-page main .product-section .right .products .item::before{
+	@include makeNull;
+	content: "";
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	border: solid 1px $color2;
+	pointer-events: none;
+	z-index: 10;
+	@include trans('border-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item::before{
+	border-color: $color3;
+}
+
+.product-page main .product-section .right .products .item .image-box{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+}
+
+.product-page main .product-section .right .products .item .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	@include trans('transform', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .image-box .image{
+	transform: scale(1.1);
+}
+
+.product-page main .product-section .right .products .item .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0;
+}
+
+.product-page main .product-section .right .products .item .image-box .compare{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 2;
+	background-color: $white;
+	text-indent: -9999px;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .image-box .compare{
+	background-color: $color3;
+}
+
+.product-page main .product-section .right .products .item .image-box .compare:hover{
+	background-color: $color1;
+}
+
+.product-page main .product-section .right .products .item .image-box .compare::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: calc(50% - 10px);
+	left: calc(50% - 10px);
+	background-color: $color2;
+	@include sprite('-189px -3px');
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item .image-box .discount{
+	@include makeNull;
+	width: 56px;
+	height: 56px;
+	border-radius: 100%;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	opacity: 1 !important;
+	z-index: 2;
+	background-color: $color1;
+	color: $white;
+	text-align: center;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .image-box .compare::after{
+	background-color: $white;
+}
+
+.product-page main .product-section .right .products .item .content{
+	@include makeNull;
+	padding: 20px;
+}
+
+.product-page main .product-section .right .products .item .content h3{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 8px;
+	@include trans('color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .content h3{
+	color: $color3;
+}
+
+.product-page main .product-section .right .products .item .content .data{
+	@include makeNull;
+}
+
+.product-page main .product-section .right .products .item .content .data p,
+.product-page main .product-section .right .products .item .content .data p strong,
+.product-page main .product-section .right .products .item .content .data p span{
+	@include makeNull;
+	color: $color2;
+}
+
+.product-page main .product-section .right .products .item .content .bottom{
+	@include makeNull;
+	padding-top: 15px;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .price-box{
+	@include makeNull;
+	height: 24px;
+	display: inline-block;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .price-box p{
+	@include makeNull;
+	color: $color2;
+	@include trans('color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .content .bottom .price-box p{
+	color: $color3;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .price-box p.price{
+	margin-top: 4px;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns{
+	@include makeNull;
+	display: inline-block;
+	float: right;
+	margin-top: 4px;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button{
+	@include makeNull;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid rgba(136, 137, 137, 0.10);
+	background-color: white;
+	position: relative;
+	margin-right: 8px;
+	text-indent: -9999px;
+	@include trans('background-color, border-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .content .bottom .btns button{
+	background-color: $color3;
+	border-color: $color3;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button:hover{
+	background-color: $color1;
+	border-color: $color1;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button:last-child{
+	margin-right: 0px;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button::after{
+	@include makeNull;
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: calc(50% - 8px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item:hover .content .bottom .btns button::after{
+	background-color: $white;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button.favourite::after{
+	@include sprite('-227px -5px');
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns button.cart::after{
+	@include sprite('-210px -5px');
+}
+
+.product-page .breadcrumbs{
+	margin-bottom: 30px;
+	height: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.product-page .breadcrumbs .list-view-btns{
+	@include makeNull;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 20px;
+}
+
+.product-page .breadcrumbs .list-view-btns button{
+	@include makeNull;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	position: relative;
+	text-indent: -9999px;
+}
+
+.product-page .breadcrumbs .list-view-btns button:first-child{
+	margin-right: 10px;
+}
+
+.product-page .breadcrumbs .list-view-btns button::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $color3;
+	opacity: 0.1;
+	@include trans('opacity', '600ms');
+}
+
+.product-page .breadcrumbs .list-view-btns button:hover::after{
+	opacity: 1;
+}
+
+.product-page .breadcrumbs .list-view-btns button.active::after{
+	opacity: 1;
+}
+
+.product-page .breadcrumbs .list-view-btns button.list::after{
+	@include sprite('-7px -151px');
+}
+
+.product-page .breadcrumbs .list-view-btns button.grid::after{
+	@include sprite('-36px -151px');
+}
+/* product page product END  */
