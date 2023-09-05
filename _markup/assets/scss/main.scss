@@ -44,6 +44,13 @@ body{
 	@include makeNull;
 }
 
+.pattern{
+	@include makeNull;
+	background-image: url(/_markup/assets/img/background1.png);
+	background-size: cover;
+	background-position: center;
+}
+
 header{
 	@include makeNull;
 	position: relative;
@@ -1193,6 +1200,7 @@ main .products-box .center .products .item:hover .image-box .compare::after{
 main .products-box .center .products .item .content{
 	@include makeNull;
 	padding: 20px;
+	background-color: $white;
 }
 
 main .products-box .center .products .item .content h3{
@@ -2438,34 +2446,6 @@ main .similar-products .center #similar-products-slider .item .content .bottom .
 	@include sprite('-210px -5px');
 }
 
-main .product-item{
-	@include makeNull;
-}
-
-main .product-item .center .image-box{
-	@include makeNull;
-	width: 100%;
-	height: 475px;
-	position: relative;
-}
-
-main .product-item .center .image-box .image{
-	@include makeNull;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-size: cover;
-	background-position: center;
-}
-
-main .product-item .center .image-box .image img{
-	@include makeNull;
-	width: 100%;
-	opacity: 0
-}
-
 .breadcrumbs{
 	@include makeNull;
 	width: 100%;
@@ -2508,6 +2488,34 @@ main .product-item .center .image-box .image img{
 
 .breadcrumbs ul li:last-child a::after{
 	content: none;
+}
+
+main .product-item{
+	@include makeNull;
+}
+
+main .product-item .center .image-box{
+	@include makeNull;
+	width: 100%;
+	height: 475px;
+	position: relative;
+}
+
+main .product-item .center .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+}
+
+main .product-item .center .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0
 }
 
 main .product-item .center h1{
@@ -3188,6 +3196,7 @@ main .product-item .center .additional-data .data p{
 	height: 80px;
 	position: relative;
 	float: left;
+	overflow: hidden;
 }
 
 .product-page main .product-section .left .box .product-small .item .image-box .image{
@@ -3218,6 +3227,84 @@ main .product-item .center .additional-data .data p{
 	@include makeNull;
 	width: calc(100% - 96px);
 	float: right;
+}
+
+.product-page main .product-section .left .box .product-small .item .content h3{
+	@include makeNull;
+	color: $color2;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px rgba(136, 137, 137, 0.10);
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box{
+	@include makeNull;
+	display: flex;
+	align-items: center;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .price-box{
+	@include makeNull;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .price-box p{
+	@include makeNull;
+	color: $color2;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .price-box p.price{
+	margin-top: 5px;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns{
+	@include makeNull;
+	margin-left: auto;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button{
+	@include makeNull;
+	float: left;
+	width: 18px;
+	height: 18px;
+	text-indent: -9999px;
+	position: relative;
+	border: solid 1px $color6;
+	border-radius: 2px;
+	background-color: $white;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button:hover{
+	background-color: $color3;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button:last-child{
+	margin-left: 10px;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button::after{
+	@include makeNull;
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: calc(50% - 8px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+	transform: scale(0.8);
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button:hover::after{
+	background-color: $white;
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button.favourite::after{
+	@include sprite('-227px -5px');
+}
+
+.product-page main .product-section .left .box .product-small .item .content .price-btns-box .btns button.cart::after{
+	@include sprite('-210px -5px');
 }
 
 .product-page main .product-section .right{
@@ -3516,3 +3603,217 @@ main .product-item .center .additional-data .data p{
 	@include sprite('-36px -151px');
 }
 /* product page product END  */
+
+/* Product List type STARt  */
+.product-page main .product-section .right .products .pro{
+	@include makeNull;
+	margin-bottom: 40px;
+}
+
+.product-page main .product-section .right .products .image-box{
+	@include makeNull;
+	width: 312px;
+	height: 340px;
+	overflow: hidden;
+	position: relative;
+}
+
+.product-page main .product-section .right .products .image-box .image{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	@include trans('transform', '600ms');
+}
+
+.product-page main .product-section .right .products .pro:hover .image-box .image{
+	transform: scale(1.1);
+}
+
+.product-page main .product-section .right .products .image-box .image img{
+	@include makeNull;
+	width: 100%;
+	opacity: 0
+}
+
+.product-page main .product-section .right .products h1{
+	@include makeNull;
+	color: $color2;
+	margin-top: 0;
+	margin-bottom: 20px;
+	position: relative;
+	padding-right: 100px;
+}
+
+.product-page main .product-section .right .products h1 span{
+	@include makeNull;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: rgba(136, 137, 137, 0.10);
+}
+
+.product-page main .product-section .right .products .actions-box{
+	@include makeNull;
+	border-top: solid 1px rgba(136, 137, 137, 0.10);
+	border-bottom: solid 1px rgba(136, 137, 137, 0.10);
+	padding: 20px 0;
+}
+
+.product-page main .product-section .right .products .actions-box .price{
+	@include makeNull;
+	height: 40px;
+	padding-right: 40px;
+	margin-right: 40px;
+	float: left;
+	display: flex;
+	align-items: center;
+	border-right: solid 1px rgba(136, 137, 137, 0.10);
+}
+
+.product-page main .product-section .right .products .actions-box .price span{
+	@include makeNull;
+	display: block;
+	color: $color3;
+}
+
+.product-page main .product-section .right .products .actions-box .info{
+	@include makeNull;
+	height: 40px;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+
+.product-page main .product-section .right .products .actions-box .info span{
+	@include makeNull;
+	display: block;
+	color: $color2;
+}
+
+.product-page main .product-section .right .products .actions-box .right{
+	@include makeNull;
+	width: max-content;
+	height: 40px;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns{
+	@include makeNull;
+	float: left;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a{
+	@include makeNull;
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;
+	border-radius: 3px;
+	border: 1px solid rgba(136, 137, 137, 0.10);
+	background-color: white;
+	position: relative;
+	margin-right: 8px;
+	text-indent: -9999px;
+	@include trans('background-color, border-color', '600ms');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a:hover{
+	background-color: $color1;
+	border-color: $color1;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a::after{
+	@include makeNull;
+	content: "";
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: calc(50% - 8px);
+	left: calc(50% - 8px);
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a:hover::after{
+	background-color: $white;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a.compare::after{
+	@include sprite('-191px -5px');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a.favourite::after{
+	@include sprite('-227px -5px');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a.cart::after{
+	@include sprite('-210px -5px');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns a:last-child{
+	margin-right: 0px;
+}
+
+.product-page main .product-section .right .products .actions-box .right form{
+	@include makeNull;
+	float: left;
+	margin-left: 40px;
+}
+
+.product-page main .product-section .right .products .actions-box .right form button{
+	@include makeNull;
+	height: 33px;
+	background-color: $color3;
+	padding: 0 16px;
+	border-radius: 5px;
+	color: $white;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .actions-box .right form button:hover{
+	background-color: $color1;
+}
+
+.product-page main .product-section .right .products .description{
+	@include makeNull;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+.product-page main .product-section .right .products .description h2{
+	@include makeNull;
+	color: $color2;
+	margin-bottom: 20px;
+}
+
+.product-page main .product-section .right .products .description p{
+	@include makeNull;
+	color: $color2;
+}
+
+.product-page main .product-section .right .products .additional-data{
+	@include makeNull;
+	border-top: solid 1px rgba(136, 137, 137, 0.10);
+	border-bottom: solid 1px rgba(136, 137, 137, 0.10);
+	padding: 20px 0;
+}
+
+.product-page main .product-section .right .products .additional-data .data{
+	@include makeNull;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.product-page main .product-section .right .products .additional-data .data p{
+	@include makeNull;
+	color: $color2;
+}
+/* Product List type End  */

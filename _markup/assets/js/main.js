@@ -477,8 +477,184 @@ class ProductPage{
 		});
 	}
 
+	gridMarkup(data){
+		var html = "";
+		html += "<div class=\"row\">";
+		$.each(data, function(index, product) {
+			// Access individual properties of the product
+			var productId = product.id;
+			var productCode = product.code;
+			var productTitle = product.title;
+			var productColor = product.color;
+			var productSize = product.size;
+			var productImage = product.image1;
+			var productPrice = product.price;
+			var productDiscount = product.discount;
+			var productLink = product.link;
+			var productAvailable = product.avaliable;
+			var productDescription = product.description;
+			var productProducer = product.producer;
+
+			// Perform actions with the product data
+			html += "<div class=\"col-md-4\">";
+			html += "<div class=\"item\">";	
+			html += "<div class=\"image-box\">";	
+			html += "<a href=\""+productLink+"\">";
+			html += "<div class=\"image\" style=\"background-image: url('"+productImage+"');\">";
+			html += "<img src=\""+productImage+"\" alt=\"\" loading=\"lazy\">";
+			html += "</div>";
+			html += "</a>";
+			html += "<button type=\"button\" class=\"compare\" data-id=\""+productId+"\">compare</button>";
+			if(productDiscount>0){
+				html += "<div class=\"discount\">"+productDiscount+"%</div>";
+			}
+			html += "</div>";
+
+			html += "<div class=\"content\">";
+			html += "<a href=\""+productLink+"\">";
+			html += "<h3>"+productTitle+"</h3>";
+			html += "<div class=\"data\">";
+			html += "<p><strong>ფერი:</strong> <span>"+productPrice+"</span></p>";
+			html += "<p><strong>კოდი (ზომა):</strong> <span> "+productCode+" ("+productSize+")</span></p>";
+			html += "<p><strong>წარმოება:</strong> <span>"+productProducer+"</span></p>";
+			html += "</div>";
+			html += "</a>";
+
+			html += "<div class=\"bottom\">";
+			html += "<div class=\"price-box\">";
+			html += "<a href=\""+productLink+"\">";
+			html += "<p>ფასი 1 ერთეულზე</p>";
+			html += "<p class=\"price\">"+productPrice+" ₾</p>";
+			html += "</a>";
+			html += "</div>";
+
+			html += "<div class=\"btns\">";
+			html += "<button type=\"button\" class=\"favourite\" data-id=\""+productId+"\">favourite</button>";
+			html += "<button type=\"button\" class=\"cart\" data-id=\""+productId+"\">cart</button>";
+			html += "</div>";
+			html += "<div class=\"clearer\"></div>";
+			html += "</div>";
+			html += "</div>";
+			html += "</div>";
+			html += "</div>";
+		});
+		html += "</div>";
+		return html;
+	}
+
+	listMarkup(data){
+		var html = "";
+		$.each(data, function(index, product) {
+			// Access individual properties of the product
+			var productId = product.id;
+			var productCode = product.code;
+			var productTitle = product.title;
+			var productColor = product.color;
+			var productSize = product.size;
+			var productImage = product.image1;
+			var productPrice = product.price;
+			var productDiscount = product.discount;
+			var productLink = product.link;
+			var productAvailable = product.avaliable;
+			var productDescription = product.description;
+			var productProducer = product.producer;
+
+			html += "<div class=\"pro\">";
+
+			html += "<div class=\"row\">";
+			
+			html += "<div class=\"col-md-4\">";
+			html += "<div class=\"image-box\">";
+			html += "<div class=\"image\" style=\"background-image:url('"+productImage+"')\">";
+			html += "<img src=\""+productImage+"\" alt=\"\" loading=\"lazy\">";
+			html += "</div>";
+			html += "</div>";
+			html += "</div>";
+
+			html += "<div class=\"col-md-8\">";
+			html += "<h1>"+productTitle+" <span>#"+productCode+"</span></h1>";
+			html += "<div class=\"actions-box\">";
+			html += "<div class=\"price\">";
+			html += "<span>"+productPrice+" ₾</span>";
+			html += "</div>";
+			html += "<div class=\"info\">";
+			if(productAvailable=="true"){
+				html += "<span>მარაგშია</span>";
+			}else{
+				html += "<span>არ არის მარაგშია</span>";
+			}			
+			html += "</div>";
+			
+			html += "<div class=\"right\">";
+			html += "<div class=\"btns\">";
+			html += "<a href=\"javascript:void(0)\" class=\"favourite\" data-id=\""+productId+"\">favorite</a>";
+			html += "<a href=\"javascript:void(0)\" class=\"compare\" data-id=\""+productId+"\">compare</a>";
+			html += "<a href=\"javascript:void(0)\" class=\"cart\" data-id=\""+productId+"\">cart</a>";
+			html += "</div>";
+
+			html += "<form action=\"\" method=\"post\">";
+			html += "<button type=\"submit\">ყიდვა</button>";
+			html += "</form>";
+			html += "</div>";
+
+			html += "<div class=\"clearer\"></div>";
+			html += "</div>";
+
+			html += "<div class=\"description\">";
+			html += "<h2>აღწერა</h2>";
+			html += "<p>"+productDescription+"</p>";
+			html += "</div>";
+
+			html += "<div class=\"additional-data\">";
+			html += "<div class=\"data\">";
+			html += "<p>ზომა: "+productSize+"</p>";
+			html += "</div>";
+
+			html += "<div class=\"data\">";
+			html += "<p>წარმოება: "+productProducer+"</p>";
+			html += "</div>";
+
+			html += "<div class=\"data\">";
+			html += "<p>ფერი: "+productColor+"</p>";
+			html += "</div>";
+
+			html += "</div>";
+			html += "</div>";
+			html += "</div>";
+			html += "</div>";
+		});
+
+		return html;
+	}
+
+	changeListTypeInit(){
+		var that = this;
+		$(document).on('click', '.product-page .breadcrumbs .list-view-btns button', function(){
+			$('.product-page .breadcrumbs .list-view-btns button').removeClass('active');
+			$(this).addClass('active');
+			
+			var type = $(this).attr('data-type');
+			if(type=="grid"){
+				var html = that.gridMarkup(productList);
+			}else{
+				var html = that.listMarkup(productList);
+			}
+
+			$('.product-page main .product-section .right .products').html(html);			
+		});
+	}
+
+	loadMarkup(){
+		if(typeof productList !== "undefined"){
+			var gridMarkup = this.gridMarkup(productList);
+			$('.product-page main .product-section .right .products').html(gridMarkup);
+		}
+	}
+
 	run(){
 		this.filterBox();
+		this.loadMarkup();
+		this.changeListTypeInit();
 	}
 }
 

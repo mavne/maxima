@@ -471,122 +471,124 @@ $version = "1.0.2";
 
 
 <main>
-	<div class="center g-flex">
-		<div class="left">
-			<div class="mainslider-box">
-				<div class="owl-carousel owl-theme" id="mainslider">
-				    <div class="item">
-				    	<div class="img-box" style="background-image:url('/_markup/assets/img/saxeluri-min.jpg')">
-				    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-				    	</div>
-				    </div>
+	<div class="pattern">
+		<div class="center g-flex">
+			<div class="left">
+				<div class="mainslider-box">
+					<div class="owl-carousel owl-theme" id="mainslider">
+					    <div class="item">
+					    	<div class="img-box" style="background-image:url('/_markup/assets/img/saxeluri-min.jpg')">
+					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
+					    	</div>
+					    </div>
 
-				    <div class="item">
-				    	<div class="img-box" style="background-image:url('/_markup/assets/img/default_name.webp')">
-				    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-				    	</div>
-				    </div>
+					    <div class="item">
+					    	<div class="img-box" style="background-image:url('/_markup/assets/img/default_name.webp')">
+					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
+					    	</div>
+					    </div>
 
-				    <div class="item">
-				    	<div class="img-box" style="background-image:url('/_markup/assets/img/CustomMadeBedroomFurniture.jpeg')">
-				    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-				    	</div>
-				    </div>				    
+					    <div class="item">
+					    	<div class="img-box" style="background-image:url('/_markup/assets/img/CustomMadeBedroomFurniture.jpeg')">
+					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
+					    	</div>
+					    </div>				    
+					</div>
+				</div>
+
+				<div class="bottom">
+					<div class="owl-carousel owl-theme" id="subslider">
+						<div class="item">
+							<div class="brand">
+								<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">
+							</div>
+							<div class="title">
+								<div class="box">
+									<h2>სახელური 1010</h2>
+									<p>კოდი (ზომა): 21860 (160 მმ) / ფერი: ანტიკური ოქრო</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="brand">
+								<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">
+							</div>
+							<div class="title">
+								<div class="box">
+									<h2>ავაჯი 123</h2>
+									<p>კოდი (ზომა): 1500 (50 მმ) / ფერი: თეთრი</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="item">
+							<div class="brand">
+								<img src="/_markup/assets/img/future.png" alt="" loading="lazy">
+							</div>
+							<div class="title">
+								<div class="box">
+									<h2>საწოლი 5646</h2>
+									<p>კოდი (ზომა): 454 (1600 მმ) / ფერი: შავი</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="btns">
+						<div class="box">
+							<button type="button" class="prev">prev</button>
+							<button type="button" class="next">next</button>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div class="bottom">
-				<div class="owl-carousel owl-theme" id="subslider">
-					<div class="item">
-						<div class="brand">
-							<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">
-						</div>
-						<div class="title">
-							<div class="box">
-								<h2>სახელური 1010</h2>
-								<p>კოდი (ზომა): 21860 (160 მმ) / ფერი: ანტიკური ოქრო</p>
+			<div class="right">
+				<ul class="banners">
+					<li>
+						<a href="">
+							<div class="image-box" style="background-image:url('/_markup/assets/img/banner1.png');">
+								<img src="/_markup/assets/img/banner1.png" alt="" loading="lazy">
 							</div>
-						</div>
-					</div>
 
-					<div class="item">
-						<div class="brand">
-							<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">
-						</div>
-						<div class="title">
-							<div class="box">
-								<h2>ავაჯი 123</h2>
-								<p>კოდი (ზომა): 1500 (50 მმ) / ფერი: თეთრი</p>
+							<h3>იატაკის ლამინატი</h3>
+						</a>
+					</li>
+
+					<li>
+						<a href="">
+							<div class="image-box" style="background-image:url('/_markup/assets/img/banner2.png');">
+								<img src="/_markup/assets/img/banner2.png" alt="" loading="lazy">
 							</div>
-						</div>
-					</div>
 
-					<div class="item">
-						<div class="brand">
-							<img src="/_markup/assets/img/future.png" alt="" loading="lazy">
-						</div>
-						<div class="title">
-							<div class="box">
-								<h2>საწოლი 5646</h2>
-								<p>კოდი (ზომა): 454 (1600 მმ) / ფერი: შავი</p>
+							<h3>ავეჯის აქსესუარები</h3>
+						</a>
+					</li>
+
+					<li>
+						<a href="">
+							<div class="image-box" style="background-image:url('/_markup/assets/img/banner3.png');">
+								<img src="/_markup/assets/img/banner3.png" alt="" loading="lazy">
 							</div>
-						</div>
-					</div>
-				</div>
 
-				<div class="btns">
-					<div class="box">
-						<button type="button" class="prev">prev</button>
-						<button type="button" class="next">next</button>
-					</div>
-				</div>
+							<h3>ავეჯის მასალა</h3>
+						</a>
+					</li>
+
+					<li>
+						<a href="">
+							<div class="image-box" style="background-image:url('/_markup/assets/img/banner4.png');">
+								<img src="/_markup/assets/img/banner4.png" alt="" loading="lazy">
+							</div>
+
+							<h3>ჩასაშენებელი ტექნიკა</h3>
+						</a>
+					</li>
+				</ul>
 			</div>
+
+			<div class="clearer"></div>
 		</div>
-		<div class="right">
-			<ul class="banners">
-				<li>
-					<a href="">
-						<div class="image-box" style="background-image:url('/_markup/assets/img/banner1.png');">
-							<img src="/_markup/assets/img/banner1.png" alt="" loading="lazy">
-						</div>
-
-						<h3>იატაკის ლამინატი</h3>
-					</a>
-				</li>
-
-				<li>
-					<a href="">
-						<div class="image-box" style="background-image:url('/_markup/assets/img/banner2.png');">
-							<img src="/_markup/assets/img/banner2.png" alt="" loading="lazy">
-						</div>
-
-						<h3>ავეჯის აქსესუარები</h3>
-					</a>
-				</li>
-
-				<li>
-					<a href="">
-						<div class="image-box" style="background-image:url('/_markup/assets/img/banner3.png');">
-							<img src="/_markup/assets/img/banner3.png" alt="" loading="lazy">
-						</div>
-
-						<h3>ავეჯის მასალა</h3>
-					</a>
-				</li>
-
-				<li>
-					<a href="">
-						<div class="image-box" style="background-image:url('/_markup/assets/img/banner4.png');">
-							<img src="/_markup/assets/img/banner4.png" alt="" loading="lazy">
-						</div>
-
-						<h3>ჩასაშენებელი ტექნიკა</h3>
-					</a>
-				</li>
-			</ul>
-		</div>
-
-		<div class="clearer"></div>
 	</div>
 
 	<div class="adresses-box">
@@ -632,340 +634,344 @@ $version = "1.0.2";
 	<section class="products-box">
 		<div class="center">
 			<h2>ტრენდული პროდუქცია</h2>
+		</div>
 
-			<div class="products">
-				<div class="row">
-					
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product1.png');">
-										<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+		<div class="pattern">
+			<div class="center">
+				<div class="products">
+					<div class="row">
+						
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product1.png');">
+											<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>იტალიური მატრასი</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>იტალიური მატრასი</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product2.png');">
-										<img src="/_markup/assets/img/product2.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product2.png');">
+											<img src="/_markup/assets/img/product2.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>სახელური 2315 (ERKUL)</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>სახელური 2315 (ERKUL)</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product3.png');">
-										<img src="/_markup/assets/img/product3.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product3.png');">
+											<img src="/_markup/assets/img/product3.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>იატაკის ლამინირებული საფარი</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>იატაკის ლამინირებული საფარი</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product4.png');">
-										<img src="/_markup/assets/img/product4.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product4.png');">
+											<img src="/_markup/assets/img/product4.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>სახელური 20 (ERKUL)</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>სახელური 20 (ERKUL)</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product5.png');">
-										<img src="/_markup/assets/img/product5.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product5.png');">
+											<img src="/_markup/assets/img/product5.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>სახელური 188 (ERKUL)</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>სახელური 188 (ERKUL)</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product6.png');">
-										<img src="/_markup/assets/img/product6.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product6.png');">
+											<img src="/_markup/assets/img/product6.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>სახელური 1027 (ERKUL)</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>სახელური 1027 (ERKUL)</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product7.png');">
-										<img src="/_markup/assets/img/product7.png" alt="" loading="lazy">
-									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-							</div>
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product7.png');">
+											<img src="/_markup/assets/img/product7.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+								</div>
 
-							<div class="content">
-								<a href="">
-									<h3>ჩასაშენებელი ტექნიკა</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
+								<div class="content">
+									<a href="">
+										<h3>ჩასაშენებელი ტექნიკა</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
 
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
 
-									<div class="clearer"></div>
+										<div class="clearer"></div>
+									</div>
 								</div>
 							</div>
 						</div>
-					</div>
 
-					<div class="col-md-3">
-						<div class="item">
-							<div class="image-box">
-								<a href="">
-									<div class="image" style="background-image: url('/_markup/assets/img/product8.png');">
-										<img src="/_markup/assets/img/product8.png" alt="" loading="lazy">
+						<div class="col-md-3">
+							<div class="item">
+								<div class="image-box">
+									<a href="">
+										<div class="image" style="background-image: url('/_markup/assets/img/product8.png');">
+											<img src="/_markup/assets/img/product8.png" alt="" loading="lazy">
+										</div>
+									</a>
+									<button type="button" class="compare">compare</button>
+
+									<div class="discount">30%</div>
+								</div>
+
+								<div class="content">
+									<a href="">
+										<h3>კარის მასალა (MDF)</h3>
+										<div class="data">
+											<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
+											<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
+										</div>
+									</a>
+									
+									<div class="bottom">
+										<div class="price-box">
+											<a href="">
+												<p>ფასი 1 ერთეულზე</p>
+												<p class="price">15.99 ₾</p>
+											</a>
+										</div>
+
+										<div class="btns">
+											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="cart">cart</button>
+										</div>
+
+										<div class="clearer"></div>
 									</div>
-								</a>
-								<button type="button" class="compare">compare</button>
-
-								<div class="discount">30%</div>
-							</div>
-
-							<div class="content">
-								<a href="">
-									<h3>კარის მასალა (MDF)</h3>
-									<div class="data">
-										<p><strong>ფერი:</strong> <span>თეთრი</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>კოდი (ზომა):</strong> <span> 20072 (128მმ)</span></p>	
-										<p><strong>წარმოება:</strong> <span>თურქეთი</span></p>	
-									</div>
-								</a>
-								
-								<div class="bottom">
-									<div class="price-box">
-										<a href="">
-											<p>ფასი 1 ერთეულზე</p>
-											<p class="price">15.99 ₾</p>
-										</a>
-									</div>
-
-									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
-									</div>
-
-									<div class="clearer"></div>
 								</div>
 							</div>
 						</div>
-					</div>
 
+					</div>
 				</div>
 			</div>
 		</div>

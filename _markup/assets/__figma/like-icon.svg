@@ -1,0 +1,6 @@
+<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="like-icon">
+<rect id="frame" x="1" y="1.00002" width="12" height="12" rx="2" stroke="#888989" stroke-opacity="0.1"/>
+<path id="heart" d="M9.49494 5.41135C8.81726 4.78184 7.60535 4.77062 7.0016 6.12014C6.25 4.77062 5.18167 4.78184 4.50826 5.41135C3.83058 6.0369 3.83058 7.0544 4.50826 7.68391L7.0016 10L9.49494 7.68391C10.1684 7.0544 10.1684 6.0369 9.49494 5.41135Z" fill="white" stroke="#2D2D2E" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
