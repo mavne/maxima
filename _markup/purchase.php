@@ -180,7 +180,7 @@ $version = "1.0.2";
 				</form>
 			</div>
 
-			<div class="right">
+			<div class="right g-profile-languages">
 				<ul>
 					<li>
 						<a href="" class="favorite">favorite</a>
@@ -204,8 +204,9 @@ $version = "1.0.2";
 			<div class="clearer"></div>
 		</div>
 	</div>
+</header>
 
-	<div class="bottom">
+<div class="bottom g-sticky-menu">
 		<div class="center">
 			<div class="production-box">
 				<div class="production">
@@ -214,246 +215,246 @@ $version = "1.0.2";
 				</div>
 
 				<div class="navigation-box">
-					<nav class="main">
-						<ul>
-							<li><a href="javascript:void(0)" data-type="page1">ავეჯის აქსესუარები</a></li>
-							<li><a href="javascript:void(0)" data-type="page2">ავეჯის მასალა</a></li>
-							<li><a href="javascript:void(0)" data-type="page3">კარის მასალა</a></li>
-							<li><a href="javascript:void(0)" data-type="page4">ჩაშენებული ტექნიკა</a></li>
-							<li><a href="javascript:void(0)" data-type="page5">საწარმოს დანადგარები</a></li>
-							<li><a href="javascript:void(0)" data-type="page6">მატრასები</a></li>
-							<li><a href="javascript:void(0)" data-type="page7">იატაკის ლამინირებული საფარი</a></li>
-							<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
-							<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
-						</ul>
-					</nav>
+				<nav class="main">
+					<ul>
+						<li><a href="javascript:void(0)" data-type="page1">ავეჯის აქსესუარები</a></li>
+						<li><a href="javascript:void(0)" data-type="page2">ავეჯის მასალა</a></li>
+						<li><a href="javascript:void(0)" data-type="page3">კარის მასალა</a></li>
+						<li><a href="javascript:void(0)" data-type="page4">ჩაშენებული ტექნიკა</a></li>
+						<li><a href="javascript:void(0)" data-type="page5">საწარმოს დანადგარები</a></li>
+						<li><a href="javascript:void(0)" data-type="page6">მატრასები</a></li>
+						<li><a href="javascript:void(0)" data-type="page7">იატაკის ლამინირებული საფარი</a></li>
+						<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
+						<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
+					</ul>
+				</nav>
 
-					<div class="sub-category">
-						<div class="sub" id="page1">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სამზარეულოს საწურები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სახელურები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სახელურები</p>
-									</a>
-								</div>
+				<div class="sub-category">
+					<div class="sub" id="page1">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page2">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page3">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>სამზარეულოს საწურები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page4">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>სახელურები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page5">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page6">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page7">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page8">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page9">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>სახელურები</p>
+								</a>
 							</div>
 						</div>
 					</div>
+
+					<div class="sub" id="page2">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page3">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page4">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page5">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page6">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page7">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page8">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page9">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				</div>
 			</div>
 
@@ -464,10 +465,30 @@ $version = "1.0.2";
 				</ul>
 			</div>
 
+			<div class="right g-profile-languages">
+				<ul>
+					<li>
+						<a href="" class="favorite">favorite</a>
+					</li>
+
+					<li>
+						<a href="javascript:void(0)" class="profile">profile</a>
+					</li>
+
+					<li>
+						<a href="" class="cart">cart</a>
+					</li>
+
+					<li>
+						<input type="hidden" name="language" id="language" value="ka">
+						<a href="" class="language ka">lang</a>
+					</li>
+				</ul>
+			</div>
+
 			<div class="clearer"></div>
 		</div>
-	</div>
-</header>
+</div>
 
 
 <main>
@@ -887,64 +908,6 @@ $version = "1.0.2";
 				</div>
 			</div>
 		</div>
-	</section>
-
-	<section class="news">
-		<div class="center">
-			<div class="title-box">
-				<h2>სიახლეები</h2>
-
-				<div class="btns">
-					<button type="button" class="prev">prev</button>
-					<button type="button" class="next">next</button>
-				</div>
-
-				<div class="clearer"></div>
-			</div>
-		</div>
-
-		<div class="news-slider-box">
-				<div class="owl-carousel owl-theme" id="news-pic-slider">
-					<a href="https://google.com" class="item" data-text="ტრენდული ფერთა პალიტრა 2023">
-						<div class="image-box">
-							<div class="image" style="background-image:url('/_markup/assets/img/004.jpeg')">
-								<img src="/_markup/assets/img/004.jpeg" alt="" loading="lazy">
-							</div>
-						</div>
-					</a>
-
-					<a href="https://facebook.com" class="item" data-text="როგორ შევარჩიოთ მატრასი?">
-						<div class="image-box">
-							<div class="image" style="background-image:url('/_markup/assets/img/005.jpeg')">
-								<img src="/_markup/assets/img/005.jpeg" alt="" loading="lazy">
-							</div>
-						</div>
-					</a>
-
-					<a href="https://gmail.com" class="item" data-text="ტექსტი 3">
-						<div class="image-box">
-							<div class="image" style="background-image:url('/_markup/assets/img/006.jpeg')">
-								<img src="/_markup/assets/img/006.jpeg" alt="" loading="lazy">
-							</div>
-						</div>
-					</a>
-
-					<a href="https://instagram.com" class="item" data-text="ტექსტი 4 ტესტ">
-						<div class="image-box">
-							<div class="image" style="background-image:url('/_markup/assets/img/007.jpg')">
-								<img src="/_markup/assets/img/007.jpg" alt="" loading="lazy">
-							</div>
-						</div>
-					</a>
-				</div>
-
-				<div class="text-container">
-					<div class="center">
-						<a href="https://google.com" class="text left">ტრენდული ფერთა პალიტრა 2023</a>
-						<a href="https://facebook.com" class="text right">როგორ შევარჩიოთ მატრასი?</a>
-					</div>
-				</div>
-			</div>
 	</section>
 </main>
 

@@ -33,7 +33,7 @@ header .middle .center .search-box input{
 	line-height: normal;
 }
 
-header .bottom .center .production-box span{
+.g-sticky-menu .center .production-box span{
 	font-family: 'Roboto _GEO Mt regular';
 	font-size: 16px;
 	line-height: 40px !important;
@@ -42,7 +42,7 @@ header .bottom .center .production-box span{
 	line-height: normal;
 }
 
-header .bottom .center .additional-menu ul li a{
+.g-sticky-menu .center .additional-menu ul li a{
 	font-family: 'Roboto _GEO Mt regular';
 	font-size: 16px;
 	line-height: 40px !important;
@@ -51,7 +51,7 @@ header .bottom .center .additional-menu ul li a{
 	line-height: normal;
 }
 
-header .bottom .center .production-box .navigation-box .main ul li a{
+.g-sticky-menu .center .production-box .navigation-box .main ul li a{
 	font-family: 'Roboto _Nusx';
 	font-size: 13px;
 	line-height: 13px;
@@ -60,7 +60,7 @@ header .bottom .center .production-box .navigation-box .main ul li a{
 	line-height: normal;
 }
 
-header .bottom .center .production-box .navigation-box .sub-category .sub .item p{
+.g-sticky-menu .center .production-box .navigation-box .sub-category .sub .item p{
 	font-family: 'Roboto _Nusx';
 	font-size: 13px;
 	line-height: 16px;
@@ -94,6 +94,14 @@ main .center .right .banners li a h3{
 }
 
 main .adresses-box .data h2{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 15px;
+	line-height: 15px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+main .adresses-box.politic-box .data a{
 	font-family: 'Roboto _GEO Mt regular';
 	font-size: 15px;
 	line-height: 15px;
@@ -211,10 +219,10 @@ main .news .center .title-box h2{
 	line-height: 30px;
 } 
 
-main .news .news-slider-box .text-container .center .text{
+main .news .news-slider-box #news-pic-slider .owl-stage-outer .owl-stage .owl-item .item .image-box .text-container .text{
 	font-family: 'Roboto _GEO Mt regular';
 	font-size: 15px;
-	line-height: 60px;
+	line-height: 18px;
 	font-style: normal;
 	font-weight: bold;
 }

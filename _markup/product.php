@@ -180,7 +180,7 @@ $version = "1.0.2";
 				</form>
 			</div>
 
-			<div class="right">
+			<div class="right g-profile-languages">
 				<ul>
 					<li>
 						<a href="" class="favorite">favorite</a>
@@ -204,8 +204,9 @@ $version = "1.0.2";
 			<div class="clearer"></div>
 		</div>
 	</div>
+</header>
 
-	<div class="bottom">
+<div class="bottom g-sticky-menu">
 		<div class="center">
 			<div class="production-box">
 				<div class="production">
@@ -464,10 +465,30 @@ $version = "1.0.2";
 				</ul>
 			</div>
 
+			<div class="right g-profile-languages">
+				<ul>
+					<li>
+						<a href="" class="favorite">favorite</a>
+					</li>
+
+					<li>
+						<a href="javascript:void(0)" class="profile">profile</a>
+					</li>
+
+					<li>
+						<a href="" class="cart">cart</a>
+					</li>
+
+					<li>
+						<input type="hidden" name="language" id="language" value="ka">
+						<a href="" class="language ka">lang</a>
+					</li>
+				</ul>
+			</div>
+
 			<div class="clearer"></div>
 		</div>
-	</div>
-</header>
+</div>
 
 
 <main>

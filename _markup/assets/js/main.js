@@ -69,31 +69,43 @@ class Navigation{
 	hoverOnCatalogInit(){
 		var body = document.getElementsByTagName('body');		
 
-		$(document).on('mouseenter', 'header .bottom .center .production-box', function(){
+		$(document).on('mouseenter', '.g-sticky-menu .center .production-box', function(){
 			body[0].classList.add('navigationHovered');
-			$('header .bottom .center .production-box .navigation-box').stop().fadeIn().css('display', 'flex');
+			$('.g-sticky-menu .center .production-box .navigation-box').stop().fadeIn().css('display', 'flex');
 		});
 
-		$(document).on('mouseleave', 'header .bottom .center .production-box', function(){
+		$(document).on('mouseleave', '.g-sticky-menu .center .production-box', function(){
 			body[0].classList.remove('navigationHovered');
-			$('header .bottom .center .production-box .navigation-box').stop().fadeOut();
+			$('.g-sticky-menu .center .production-box .navigation-box').stop().fadeOut();
 		});
 		
-		$(document).on('mouseenter', 'header .bottom .center .production-box .navigation-box .main ul li a', function(e){
-			$('header .bottom .center .production-box .navigation-box .sub-category').stop().fadeIn();
+		$(document).on('mouseenter', '.g-sticky-menu .center .production-box .navigation-box .main ul li a', function(e){
+			$('.g-sticky-menu .center .production-box .navigation-box .sub-category').stop().fadeIn();
 
-			$('header .bottom .center .production-box .navigation-box .sub-category .sub').stop().hide();
+			$('.g-sticky-menu .center .production-box .navigation-box .sub-category .sub').stop().hide();
 			var sub = $(this).attr('data-type');
 			$("#"+sub).show();
 		});
 
-		$(document).on('mouseleave', 'header .bottom .center .production-box .navigation-box', function(){
-			$('header .bottom .center .production-box .navigation-box .sub-category').stop().fadeOut();
-			$('header .bottom .center .production-box .navigation-box .sub-category .sub').stop().hide();
+		$(document).on('mouseleave', '.g-sticky-menu .center .production-box .navigation-box', function(){
+			$('.g-sticky-menu .center .production-box .navigation-box .sub-category').stop().fadeOut();
+			$('.g-sticky-menu .center .production-box .navigation-box .sub-category .sub').stop().hide();
 		});
 	}
 
+	scrollTopChangeHeader(){
+  		window.addEventListener('scroll', function() {
+			var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+			if(scrollTop > 50){
+				$('.g-sticky-menu').addClass('scrolled');
+			}else{
+				$('.g-sticky-menu').removeClass('scrolled');
+			}
+		});
+  	}
+
 	run(){
+		this.scrollTopChangeHeader();
 		this.hoverOnCatalogInit();
 	}
 }
@@ -227,13 +239,13 @@ class News{
 		    dots: false,
 		    responsive: {
 		        0: {
-		            items: 2
+		            items: 1
 		        },
 		        600: {
-		            items: 2
+		            items: 1
 		        },
 		        1000: {
-		            items: 2
+		            items: 3
 		        }
 		    },
 		    onChanged: function (event) {
@@ -332,7 +344,7 @@ class Brands{
 			if(!scrolling){
 				scrolling = true;
 				$(that.container).animate({
-		      		scrollLeft: '-=270'
+		      		scrollLeft: '-=240'
 		    	}, 'slow', function() {
 		    		scrolling = false;	
 				});
@@ -346,7 +358,7 @@ class Brands{
 				var maxScrollLeft = $element.get(0).scrollWidth - $element.width();
 				var scrollLeft = $(that.container).scrollLeft();
 				
-				if(scrollLeft >= maxScrollLeft){
+				if((scrollLeft + 40) >= maxScrollLeft){
 					$(that.container).animate({
 				      scrollLeft: '0'
 				    }, 'slow', function() {
@@ -354,7 +366,7 @@ class Brands{
 					});
 				}else{
 					$(that.container).animate({
-				      scrollLeft: '+=270'
+				      scrollLeft: '+=240'
 				    }, 'slow', function() {
 			    		scrolling = false;	
 					});
