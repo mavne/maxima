@@ -693,6 +693,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1000">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1000">
+												<div class="plus" data-id="1000">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -734,6 +741,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1001">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1001">
+												<div class="plus" data-id="1001">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -775,6 +789,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1002">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1002">
+												<div class="plus" data-id="1002">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -816,6 +837,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1003">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1003">
+												<div class="plus" data-id="1003">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -857,6 +885,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1004">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1004">
+												<div class="plus" data-id="1004">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -898,6 +933,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1005">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1005">
+												<div class="plus" data-id="1005">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -939,6 +981,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1006">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1006">
+												<div class="plus" data-id="1006">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 
@@ -982,6 +1031,13 @@ $version = "1.0.3";
 
 										<div class="btns">
 											<button type="button" class="favourite">favourite</button>
+
+											<div class="quentity-box">
+												<div class="minus" data-id="1007">-</div>
+												<input type="text" value="1" min="1" readonly="readonly" data-id="1007">
+												<div class="plus" data-id="1007">+</div>
+											</div>
+
 											<button type="button" class="cart">cart</button>
 										</div>
 

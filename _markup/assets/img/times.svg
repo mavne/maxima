@@ -1,0 +1,16 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="14.53" height="14.52" viewBox="0 0 14.53 14.52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #2d2d2e;
+        stroke-width: 4px;
+      }
+    </style>
+  </defs>
+  <title>times</title>
+  <g>
+    <path class="cls-1" d="M13.16,1.43,1.48,13.11"/>
+    <path class="cls-1" d="M13.16,13.11,1.48,1.43"/>
+  </g>
+</svg>

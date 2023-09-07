@@ -393,6 +393,34 @@ class Brands{
 class PurchasePage{
 	constructor() {
         this.owl;
+        this.owl2;
+    }
+
+    mainProductSliderinit(){
+    	this.owl2 = $('main .product-item .center .product-slider-box #product-slider').owlCarousel({
+		    autoplay: true,
+		    autoplayTimeout: 10000,
+		    smartSpeed: 1500,
+		    loop: false,
+		    margin: 0,
+		    nav: true,
+		    dots: false,
+		    responsive: {
+		        0: {
+		            items: 1
+		        },
+		        600: {
+		            items: 1
+		        },
+		        1000: {
+		            items: 1
+		        }
+		    },
+		    onChanged: function(event) {
+		    	$('main .product-item .center .product-slider-box .thumbs .image-box').removeClass('active');
+		    	$('main .product-item .center .product-slider-box .thumbs .image-box[data-image="'+event.item.index+'"]').addClass('active');
+		    }
+		});
     }
 
 	similarProductSliderInit(){
@@ -418,6 +446,14 @@ class PurchasePage{
 		});
 	}
 
+	productImageButtonClickinit(){
+		var that = this;
+		$(document).on('click', 'main .product-item .center .product-slider-box .thumbs .image-box', function(){
+			var image = $(this).attr('data-image');
+			that.owl2.trigger('to.owl.carousel', [image, 500]);
+		});
+	}
+
 	buttonClickinit(){
 		var that = this;
 		$(document).on('click', 'main .similar-products .center .title-box .btns button.prev', function(){
@@ -430,6 +466,8 @@ class PurchasePage{
 	}
 
 	run(){
+		this.mainProductSliderinit();
+		this.productImageButtonClickinit();
 		this.similarProductSliderInit();
 		this.buttonClickinit();
 	}
@@ -542,6 +580,13 @@ class ProductPage{
 
 			html += "<div class=\"btns\">";
 			html += "<button type=\"button\" class=\"favourite\" data-id=\""+productId+"\">favourite</button>";
+
+			html += "<div class='quentity-box'>";
+			html += "<div class='minus' data-id='"+productId+"'>-</div>";
+			html += "<input type='text' value='1' min='1' readonly='readonly' data-id='"+productId+"'>";
+			html += "<div class='plus' data-id='"+productId+"'>+</div>";
+			html += "</div>";
+
 			html += "<button type=\"button\" class=\"cart\" data-id=\""+productId+"\">cart</button>";
 			html += "</div>";
 			html += "<div class=\"clearer\"></div>";
@@ -601,6 +646,13 @@ class ProductPage{
 			html += "<div class=\"btns\">";
 			html += "<a href=\"javascript:void(0)\" class=\"favourite\" data-id=\""+productId+"\">favorite</a>";
 			html += "<a href=\"javascript:void(0)\" class=\"compare\" data-id=\""+productId+"\">compare</a>";
+
+			html += "<div class='quentity-box'>";
+			html += "<div class='minus' data-id='"+productId+"'>-</div>";
+			html += "<input type='text' value='1' min='1' readonly='readonly' data-id='"+productId+"'>";
+			html += "<div class='plus' data-id='"+productId+"'>+</div>";
+			html += "</div>";
+
 			html += "<a href=\"javascript:void(0)\" class=\"cart\" data-id=\""+productId+"\">cart</a>";
 			html += "</div>";
 
@@ -670,6 +722,33 @@ class ProductPage{
 	}
 }
 
+class ProductQuentity{
+	btnClickInit(){
+		$(document).on('click', '.quentity-box .minus', function(){
+			var id = $(this).attr('data-id');
+			var inputVal = parseInt($('input[data-id="'+id+'"]').val());
+			var newVal = 1; 
+
+			if(inputVal > 1){
+				newVal = inputVal - 1;
+			}
+
+			$('input[data-id="'+id+'"]').val(newVal);
+		});
+		$(document).on('click', '.quentity-box .plus', function(){
+			var id = $(this).attr('data-id');
+			var inputVal = parseInt($('input[data-id="'+id+'"]').val());
+			var newVal = inputVal + 1; 
+
+			$('input[data-id="'+id+'"]').val(newVal);
+		});
+	}
+
+	run(){
+		this.btnClickInit();
+	}
+}
+
 /* VisiableTracker */
 var visiableTracker = new VisiableTracker;
 visiableTracker.run();
@@ -709,3 +788,7 @@ registerAuthModal.run();
 /* ProductPage */
 var productPage = new ProductPage;
 productPage.run();
+
+/* ProductQuentity */
+var productQuentity = new ProductQuentity;
+productQuentity.run();

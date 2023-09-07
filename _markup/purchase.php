@@ -496,10 +496,53 @@ $version = "1.0.2";
 		<div class="center">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="image-box">
-						<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
-							<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+					<div class="product-slider-box">
+						<div class="thumbs">
+								<div class="flex-container">
+									<div class="image-box active" style="background-image:url('https://hotsale.ge/files/offers/rbiliaveji/13.jpg')" data-image="0">
+						    		<img src="https://hotsale.ge/files/offers/rbiliaveji/13.jpg" alt="" loading="lazy">
+						    	</div>
+
+						    	<div class="image-box" style="background-image:url('https://marco.ge/public/uploads/img/img_61cb0ef06542f_1640697584415.jpg')" data-image="1">
+						    		<img src="https://marco.ge/public/uploads/img/img_61cb0ef06542f_1640697584415.jpg" alt="" loading="lazy">
+						    	</div>
+
+						    	<div class="image-box" style="background-image:url('https://belux.ge/uploads/images/showroom/CH1yiGzd34.jpg')" data-image="2">
+						    		<img src="https://belux.ge/uploads/images/showroom/CH1yiGzd34.jpg" alt="" loading="lazy">
+						    	</div>
+
+						    	<div class="image-box" style="background-image:url('https://www.homeis.ge/wp-content/uploads/2020/09/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_col_4-1-768x432.jpg')" data-image="3">
+						    		<img src="https://www.homeis.ge/wp-content/uploads/2020/09/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_col_4-1-768x432.jpg" alt="" loading="lazy">
+						    	</div>
+					    	</div>
 						</div>
+
+
+						<div class="owl-carousel owl-theme" id="product-slider">
+					    <div class="item">
+					    	<a href="https://hotsale.ge/files/offers/rbiliaveji/13.jpg" class="img-box lightbox" style="background-image:url('https://hotsale.ge/files/offers/rbiliaveji/13.jpg')">
+					    		<img src="https://hotsale.ge/files/offers/rbiliaveji/13.jpg" alt="" loading="lazy">
+					    	</a>
+					    </div>
+
+					    <div class="item">
+					    	<a href="https://marco.ge/public/uploads/img/img_61cb0ef06542f_1640697584415.jpg" class="img-box lightbox" style="background-image:url('https://marco.ge/public/uploads/img/img_61cb0ef06542f_1640697584415.jpg')">
+					    		<img src="https://marco.ge/public/uploads/img/img_61cb0ef06542f_1640697584415.jpg" alt="" loading="lazy">
+					    	</a>
+					    </div>
+
+					    <div class="item">
+					    	<a href="https://belux.ge/uploads/images/showroom/CH1yiGzd34.jpg" class="img-box lightbox" style="background-image:url('https://belux.ge/uploads/images/showroom/CH1yiGzd34.jpg')">
+					    		<img src="https://belux.ge/uploads/images/showroom/CH1yiGzd34.jpg" alt="" loading="lazy">
+					    	</a>
+					    </div>
+
+					    <div class="item">
+					    	<a href="https://www.homeis.ge/wp-content/uploads/2020/09/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_col_4-1-768x432.jpg" class="img-box lightbox" style="background-image:url('https://www.homeis.ge/wp-content/uploads/2020/09/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_col_4-1-768x432.jpg')">
+					    		<img src="https://www.homeis.ge/wp-content/uploads/2020/09/house-in-the-landscape-niko-arcjitect-architecture-residential-russia-houses-khurtin_dezeen_2364_col_4-1-768x432.jpg" alt="" loading="lazy">
+					    	</a>
+					    </div>				    
+					</div>
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -528,6 +571,13 @@ $version = "1.0.2";
 							<div class="btns">
 								<a href="" class="favourite">favorite</a>
 								<a href="" class="compare">compare</a>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="500">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="500">
+									<div class="plus" data-id="500">+</div>
+								</div>
+
 								<a href="" class="cart">cart</a>
 							</div>
 
@@ -611,6 +661,13 @@ $version = "1.0.2";
 
 							<div class="btns">
 								<button type="button" class="favourite">favourite</button>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="50">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="50">
+									<div class="plus" data-id="50">+</div>
+								</div>
+
 								<button type="button" class="cart">cart</button>
 							</div>
 
@@ -650,6 +707,13 @@ $version = "1.0.2";
 
 							<div class="btns">
 								<button type="button" class="favourite">favourite</button>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="51">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="51">
+									<div class="plus" data-id="51">+</div>
+								</div>
+
 								<button type="button" class="cart">cart</button>
 							</div>
 
@@ -689,6 +753,13 @@ $version = "1.0.2";
 
 							<div class="btns">
 								<button type="button" class="favourite">favourite</button>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="52">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="52">
+									<div class="plus" data-id="52">+</div>
+								</div>
+
 								<button type="button" class="cart">cart</button>
 							</div>
 
@@ -728,6 +799,13 @@ $version = "1.0.2";
 
 							<div class="btns">
 								<button type="button" class="favourite">favourite</button>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="53">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="53">
+									<div class="plus" data-id="53">+</div>
+								</div>
+
 								<button type="button" class="cart">cart</button>
 							</div>
 
@@ -767,6 +845,13 @@ $version = "1.0.2";
 
 							<div class="btns">
 								<button type="button" class="favourite">favourite</button>
+
+								<div class="quentity-box">
+									<div class="minus" data-id="54">-</div>
+									<input type="text" value="1" min="1" readonly="readonly" data-id="54">
+									<div class="plus" data-id="54">+</div>
+								</div>
+
 								<button type="button" class="cart">cart</button>
 							</div>
 
@@ -976,6 +1061,9 @@ $version = "1.0.2";
 <script src="/_markup/assets/js/owl.carousel.min.js"></script>
 <script src="/_markup/assets/js/compressed.js?v=<?=$version?>"></script>
 <script src="/_markup/assets/aos/aos.js"></script>
+<script>
+	$('.lightbox').lightbox();
+</script>
 </body>
 
 </html>

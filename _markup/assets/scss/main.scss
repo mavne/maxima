@@ -1351,6 +1351,67 @@ main .products-box .center .products .item .content .bottom .btns button.cart::a
 	@include sprite('-210px -5px');
 }
 
+main .products-box .center .products .item .content .bottom .btns .quentity-box{
+	@include makeNull;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	position: relative;
+	margin-right: 8px;
+}
+
+main .products-box .center .products .item .content .bottom .btns .quentity-box .minus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top:10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color', '600ms');
+}
+
+main .products-box .center .products .item .content .bottom .btns .quentity-box .plus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color, color', '600ms');
+}
+
+main .products-box .center .products .item .content .bottom .btns .quentity-box div:hover{
+	background-color: $color3;
+	color: $white;
+}
+
+main .products-box .center .products .item .content .bottom .btns .quentity-box input{
+	@include makeNull;
+	width: 28px;
+	height: 28px;
+	border: solid 1px $color3;
+	position: absolute;
+	left: calc(50% - 14px);
+	top:10px;
+	text-align: center;
+}
+
 main .discount{
 	@include makeNull;
 	opacity: 0;
@@ -2517,6 +2578,67 @@ main .similar-products .center #similar-products-slider .item .content .bottom .
 	@include sprite('-210px -5px');
 }
 
+main .similar-products .center #similar-products-slider .item .content .bottom .btns .quentity-box{
+	@include makeNull;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	position: relative;
+	margin-right: 8px;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns .quentity-box .minus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top:10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns .quentity-box .plus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color, color', '600ms');
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns .quentity-box div:hover{
+	background-color: $color3;
+	color: $white;
+}
+
+main .similar-products .center #similar-products-slider .item .content .bottom .btns .quentity-box input{
+	@include makeNull;
+	width: 28px;
+	height: 28px;
+	border: solid 1px $color3;
+	position: absolute;
+	left: calc(50% - 14px);
+	top:10px;
+	text-align: center;
+}
+
 .breadcrumbs{
 	@include makeNull;
 	width: 100%;
@@ -2711,6 +2833,68 @@ main .product-item .center .actions-box .right .btns a:last-child{
 	margin-right: 0px;
 }
 
+main .product-item .center .actions-box .right .btns .quentity-box{
+	@include makeNull;
+	display: block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 8px;
+	position: relative;
+}
+
+main .product-item .center .actions-box .right .btns .quentity-box .minus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top:1px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color', '600ms');
+}
+
+main .product-item .center .actions-box .right .btns .quentity-box .plus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color, color', '600ms');
+}
+
+main .product-item .center .actions-box .right .btns .quentity-box input{
+	@include makeNull;
+	width: 28px;
+	height: 28px;
+	border: solid 1px $color3;
+	position: absolute;
+	left: calc(50% - 14px);
+	top:1px;
+	text-align: center;
+}
+
+main .product-item .center .actions-box .right .btns .quentity-box div:hover{
+	background-color: $color3;
+	color: $white;
+}
+
 main .product-item .center .actions-box .right form{
 	@include makeNull;
 	float: left;
@@ -2766,6 +2950,161 @@ main .product-item .center .additional-data .data p{
 	@include makeNull;
 	color: $color2;
 }
+
+main .product-item .center .product-slider-box{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+main .product-item .center .product-slider-box .thumbs{
+	@include makeNull;
+	width: 100px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+main .product-item .center .product-slider-box .thumbs .image-box{
+	@include makeNull;
+	width: 96px;
+	height: 96px;
+	border: solid 2px transparent;
+	margin: 10px 0;
+	background-size: cover;
+	background-position: center;
+	cursor: pointer;
+}
+
+main .product-item .center .product-slider-box .thumbs .image-box.active{
+	border: solid 2px $color3;
+}
+
+main .product-item .center .product-slider-box .thumbs .image-box img{
+	@include makeNull;
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	opacity: 0;
+}
+
+main .product-item .center .product-slider-box #product-slider{
+	@include makeNull;
+	width: calc(100% - 115px);
+	margin-left: 115px;
+	height: 100%;
+	position: relative;	
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer .owl-stage{
+	height: 100%;
+	position: relative;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer .owl-stage .owl-item{
+	height: 100%;
+	position: relative;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer .owl-stage .owl-item .item{
+	height: 100%;
+	position: relative;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer .owl-stage .owl-item .item .img-box{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-stage-outer .owl-stage .owl-item .item .img-box img{
+	@include makeNull;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav{
+	@include makeNull;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: calc(50% - 15px);
+	left: 0;
+	padding: 0 15px;
+	pointer-events: none;
+	z-index: 2;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button{
+	@include makeNull;
+	width: 30px;
+	height: 30px;
+	background-color: $white;
+	text-indent: -9999px;
+	position: relative;
+	border-radius: 5px;
+	float: left;
+	cursor: pointer;
+	pointer-events: all;
+	@include trans('background-color', '600ms');
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button:last-child{
+	float: right;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button::after{
+	content: "";
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	background-color: $color2;
+	@include trans('background-color', '600ms');
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button.owl-prev::after{
+	@include sprite('-149px -2px');
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button.owl-next::after{
+	transform: rotate(180deg);
+	@include sprite('-149px -2px');
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button:hover{
+	background-color: $color3;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button:hover::after{
+	background-color: $white;
+}
+
+main .product-item .center .product-slider-box #product-slider .owl-nav button span{ display: none; }
 
 #g-auth-register .modal-dialog{
 	width: 1120px;
@@ -3265,6 +3604,8 @@ main .product-item .center .additional-data .data p{
 	@include makeNull;
 	width: 80px;
 	height: 80px;
+	display: block;
+	text-decoration: none;
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -3300,8 +3641,10 @@ main .product-item .center .additional-data .data p{
 	float: right;
 }
 
-.product-page main .product-section .left .box .product-small .item .content h3{
+.product-page main .product-section .left .box .product-small .item .content a{
 	@include makeNull;
+	display: block;
+	text-decoration: none;
 	color: $color2;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
@@ -3316,6 +3659,8 @@ main .product-item .center .additional-data .data p{
 
 .product-page main .product-section .left .box .product-small .item .content .price-btns-box .price-box{
 	@include makeNull;
+	display: block;
+	text-decoration: none;
 }
 
 .product-page main .product-section .left .box .product-small .item .content .price-btns-box .price-box p{
@@ -3579,6 +3924,67 @@ main .product-item .center .additional-data .data p{
 	@include trans('background-color, border-color', '600ms');
 }
 
+.product-page main .product-section .right .products .item .content .bottom .btns .quentity-box{
+	@include makeNull;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	position: relative;
+	margin-right: 8px;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns .quentity-box .minus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top:10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns .quentity-box .plus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color, color', '600ms');
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns .quentity-box div:hover{
+	background-color: $color3;
+	color: $white;
+}
+
+.product-page main .product-section .right .products .item .content .bottom .btns .quentity-box input{
+	@include makeNull;
+	width: 28px;
+	height: 28px;
+	border: solid 1px $color3;
+	position: absolute;
+	left: calc(50% - 14px);
+	top:10px;
+	text-align: center;
+}
+
 .product-page main .product-section .right .products .item:hover .content .bottom .btns button{
 	background-color: $color3;
 	border-color: $color3;
@@ -3796,6 +4202,68 @@ main .product-item .center .additional-data .data p{
 	@include trans('background-color, border-color', '600ms');
 }
 
+.product-page main .product-section .right .products .actions-box .right .btns .quentity-box{
+	@include makeNull;
+	display: block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 8px;
+	position: relative;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns .quentity-box .minus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	top:1px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color', '600ms');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns .quentity-box .plus{
+	@include makeNull;
+	display: block;
+	width: 15px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	position: absolute;
+	right: 0;
+	top: 1px;
+	border: solid 1px $color3;
+	cursor: pointer;
+	pointer-events: all;
+	background-color: $white;
+	color: $color3;
+	@include trans('background-color, color', '600ms');
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns .quentity-box input{
+	@include makeNull;
+	width: 28px;
+	height: 28px;
+	border: solid 1px $color3;
+	position: absolute;
+	left: calc(50% - 14px);
+	top:1px;
+	text-align: center;
+}
+
+.product-page main .product-section .right .products .actions-box .right .btns .quentity-box div:hover{
+	background-color: $color3;
+	color: $white;
+}
+
 .product-page main .product-section .right .products .actions-box .right .btns a:hover{
 	background-color: $color1;
 	border-color: $color1;
@@ -3888,3 +4356,27 @@ main .product-item .center .additional-data .data p{
 	color: $color2;
 }
 /* Product List type End  */
+
+.lightbox__close{
+	background-image: unset;
+}
+
+.lightbox__close::after{
+	content: "";
+	margin: 0;
+	padding: 0;
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: $white;
+	-webkit-mask-image: url('../img/times.svg');
+	mask-image: url('../img/times.svg');
+	-webkit-mask-size: contain;
+	mask-size: contain;
+	-webkit-mask-repeat: no-repeat;	
+	mask-repeat: no-repeat;	
+	-webkit-mask-position: center;
+	mask-position: center;
+}

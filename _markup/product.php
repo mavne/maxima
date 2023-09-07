@@ -588,19 +588,19 @@ $version = "1.0.2";
 
 					<div class="product-small">
 						<div class="item">
-							<div class="image-box">
+							<a href="" class="image-box">
 								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
 									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
 								</div>
-							</div>
+							</a>
 
 							<div class="content">
-								<h3>ორთოპედიული მატრასი</h3>
+								<a href="">ორთოპედიული მატრასი</a>
 								<div class="price-btns-box">
-									<div class="price-box">
+									<a href="" class="price-box">
 										<p>ფასი 1 ერთეულზე</p>
 										<p class="price">15.99 ₾</p>
-									</div>
+									</a>
 
 									<div class="btns">
 										<button type="button" class="favourite">favourite</button>
@@ -613,19 +613,19 @@ $version = "1.0.2";
 						</div>
 
 						<div class="item">
-							<div class="image-box">
+							<a href="" class="image-box">
 								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
 									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
 								</div>
-							</div>
+							</a>
 
 							<div class="content">
-								<h3>ორთოპედიული 222</h3>
+								<a href="">ორთოპედიული 222</a>
 								<div class="price-btns-box">
-									<div class="price-box">
+									<a href="" class="price-box">
 										<p>ფასი 1 ერთეულზე</p>
 										<p class="price">25.99 ₾</p>
-									</div>
+									</a>
 
 									<div class="btns">
 										<button type="button" class="favourite">favourite</button>
@@ -644,19 +644,19 @@ $version = "1.0.2";
 
 					<div class="product-small">
 						<div class="item">
-							<div class="image-box">
+							<a href="" class="image-box">
 								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
 									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
 								</div>
-							</div>
+							</a>
 
 							<div class="content">
-								<h3>ორთოპედიული მატრასი</h3>
+								<a href="">ორთოპედიული მატრასი</a>
 								<div class="price-btns-box">
-									<div class="price-box">
+									<a href="" class="price-box">
 										<p>ფასი 1 ერთეულზე</p>
 										<p class="price">15.99 ₾</p>
-									</div>
+									</a>
 
 									<div class="btns">
 										<button type="button" class="favourite">favourite</button>
@@ -669,19 +669,19 @@ $version = "1.0.2";
 						</div>
 
 						<div class="item">
-							<div class="image-box">
+							<a href="" class="image-box">
 								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
 									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
 								</div>
-							</div>
+							</a>
 
 							<div class="content">
-								<h3>ორთოპედიული 222</h3>
+								<a href="">ორთოპედიული 222</a>
 								<div class="price-btns-box">
-									<div class="price-box">
+									<a href="" class="price-box">
 										<p>ფასი 1 ერთეულზე</p>
 										<p class="price">25.99 ₾</p>
-									</div>
+									</a>
 
 									<div class="btns">
 										<button type="button" class="favourite">favourite</button>
