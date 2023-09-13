@@ -183,15 +183,15 @@ $version = "1.0.2";
 			<div class="right g-profile-languages">
 				<ul>
 					<li>
-						<a href="" class="favorite">favorite</a>
+						<a href="" class="favorite" data-tooltip="რჩეულები">favorite</a>
 					</li>
 
 					<li>
-						<a href="javascript:void(0)" class="profile">profile</a>
+						<a href="javascript:void(0)" class="profile" data-tooltip="პროფილი">profile</a>
 					</li>
 
 					<li>
-						<a href="" class="cart">cart</a>
+						<a href="" class="cart" data-tooltip="კალათა">cart</a>
 					</li>
 
 					<li>
@@ -215,246 +215,264 @@ $version = "1.0.2";
 				</div>
 
 				<div class="navigation-box">
-					<nav class="main">
-						<ul>
-							<li><a href="javascript:void(0)" data-type="page1">ავეჯის აქსესუარები</a></li>
-							<li><a href="javascript:void(0)" data-type="page2">ავეჯის მასალა</a></li>
-							<li><a href="javascript:void(0)" data-type="page3">კარის მასალა</a></li>
-							<li><a href="javascript:void(0)" data-type="page4">ჩაშენებული ტექნიკა</a></li>
-							<li><a href="javascript:void(0)" data-type="page5">საწარმოს დანადგარები</a></li>
-							<li><a href="javascript:void(0)" data-type="page6">მატრასები</a></li>
-							<li><a href="javascript:void(0)" data-type="page7">იატაკის ლამინირებული საფარი</a></li>
-							<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
-							<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
-						</ul>
-					</nav>
+				<nav class="main">
+					<ul>
+						<li><a href="javascript:void(0)" data-type="page1">ავეჯის აქსესუარები</a></li>
+						<li><a href="javascript:void(0)" data-type="page2">ავეჯის მასალა</a></li>
+						<li><a href="javascript:void(0)" data-type="page3">კარის მასალა</a></li>
+						<li><a href="javascript:void(0)" data-type="page4">ჩაშენებული ტექნიკა</a></li>
+						<li><a href="javascript:void(0)" data-type="page5">საწარმოს დანადგარები</a></li>
+						<li><a href="javascript:void(0)" data-type="page6">მატრასები</a></li>
+						<li><a href="javascript:void(0)" data-type="page7">იატაკის ლამინირებული საფარი</a></li>
+						<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
+						<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
+					</ul>
+				</nav>
 
-					<div class="sub-category">
-						<div class="sub" id="page1">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სამზარეულოს საწურები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სახელურები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>სახელურები</p>
-									</a>
-								</div>
+				<div class="sub-category">
+					<div class="sub" id="page1">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/99079-768x432.jpeg" alt="" loading="lazy">
+									</div>
+									<p>სახელურე</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page2">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/99807-1-768x432.jpeg" alt="" loading="lazy">
+									</div>
+									<p>ტანსაცმლის საკიდები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page3">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/349628_n.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page4">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/00039-RFH-100x75x25-SN-nickel-1.png" alt="" loading="lazy">
+									</div>
+									<p>ანჯამები</p>
+								</a>
 							</div>
-						</div>
 
-						<div class="sub" id="page5">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page6">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page7">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page8">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
-							</div>
-						</div>
-
-						<div class="sub" id="page9">
-							<div class="row">
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>ავეჯის ფეხები</p>
-									</a>
-								</div>
-
-								<div class="col-md-3">
-									<a href="" class="item">
-										<div class="img-box">
-											<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-										</div>
-										<p>მაგიდის აქსესუარები</p>
-									</a>
-								</div>
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/3478416_n.jpg" alt="" loading="lazy">
+									</div>
+									<p>უჯრის მიმმართველები (ე.წ. "სალასკა")</p>
+								</a>
 							</div>
 						</div>
 					</div>
+
+					<div class="sub" id="page2">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/aaaa_1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ლამინატი</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/_w.png" alt="" loading="lazy">
+									</div>
+									<p>ლამინირებული მდფ</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/spon.png" alt="" loading="lazy">
+									</div>
+									<p>შპონირებული მდფ</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/panel.jpg" alt="" loading="lazy">
+									</div>
+									<p>მდფ-ის საფასადე პანელი (AGT)</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page3">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page4">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page5">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page6">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page7">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page8">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="sub" id="page9">
+						<div class="row">
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>ავეჯის ფეხები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+									</div>
+									<p>მაგიდის აქსესუარები</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				</div>
 			</div>
 
@@ -499,48 +517,50 @@ $version = "1.0.2";
 					<h2 class="title">კატალოგი</h2>
 
 					<div class="wrapper">
+
+						<!-- collapsed | aria-expanded="true" | show -->
 					    <div class="accordion">
 					        <!-- First Accordion Item -->
 					        <div class="accordion-item">
 					            <h2 class="accordion-header" id="item1Heading">
-					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item1Collapse" aria-expanded="false" aria-controls="item1Collapse">
+					                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#item1Collapse" aria-expanded="true" aria-controls="item1Collapse">
 					                    ავეჯის აქსესუარები
 					                </button>
 					            </h2>
-					            <div id="item1Collapse" class="accordion-collapse collapse" aria-labelledby="item1Heading">
+					            <div id="item1Collapse" class="accordion-collapse collapse show" aria-labelledby="item1Heading">
 					                <div class="accordion-body">
 					                    <!-- Nested Accordion -->
 					                    <div class="accordion">
 					                        <!-- Nested Accordion Item 1 -->
 					                        <div class="accordion-item">
 					                            <h2 class="accordion-header" id="innerItem1Heading">
-					                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem1Collapse" aria-expanded="false" aria-controls="innerItem1Collapse">
+					                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem1Collapse" aria-expanded="true" aria-controls="innerItem1Collapse">
 					                                    სახელურები
 					                                </button>
 					                            </h2>
-					                            <div id="innerItem1Collapse" class="accordion-collapse collapse" aria-labelledby="innerItem1Heading">
+					                            <div id="innerItem1Collapse" class="accordion-collapse collapse show" aria-labelledby="innerItem1Heading">
 					                                <div class="accordion-body">
 					                                    <form action="" method="post">
 					                                    	<label for="brand1">
-											  					<div class="checkbox">
-											  						<input type="checkbox" name="brand[]" id="brand1" value="1">
-											  					</div>
-											  					<span>ERKUL</span>
-											  				</label>
+																			  					<div class="checkbox">
+																			  						<input type="checkbox" name="brand[]" id="brand1" value="1">
+																			  					</div>
+																			  					<span>ERKUL</span>
+																			  				</label>
 
-											  				<label for="brand2">
-											  					<div class="checkbox">
-											  						<input type="checkbox" name="brand[]" id="brand2" value="2">
-											  					</div>
-											  					<span>GTV</span>
-											  				</label>
+																			  				<label for="brand2">
+																			  					<div class="checkbox">
+																			  						<input type="checkbox" name="brand[]" id="brand2" value="2">
+																			  					</div>
+																			  					<span>GTV</span>
+																			  				</label>
 
-											  				<label for="brand3">
-											  					<div class="checkbox">
-											  						<input type="checkbox" name="brand[]" id="brand3" value="3">
-											  					</div>
-											  					<span>SEDEF/პლასტმასი</span>
-											  				</label>
+																			  				<label for="brand3">
+																			  					<div class="checkbox">
+																			  						<input type="checkbox" name="brand[]" id="brand3" value="3">
+																			  					</div>
+																			  					<span>SEDEF/პლასტმასი</span>
+																			  				</label>
 					                                    </form>
 					                                </div>
 					                            </div>
@@ -558,6 +578,51 @@ $version = "1.0.2";
 					                                </div>
 					                            </div>
 					                        </div>
+
+					                        <!-- Nested Accordion Item 3 -->
+					                        <?php $n = 3; ?>
+					                        <div class="accordion-item">
+					                            <h2 class="accordion-header" id="innerItem<?=$n?>Heading">
+					                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem<?=$n?>Collapse" aria-expanded="false" aria-controls="innerItem<?=$n?>Collapse">
+					                                   ავეჯის ფეხები
+					                                </button>
+					                            </h2>
+					                            <div id="innerItem<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="innerItem<?=$n?>Heading">
+					                                <div class="accordion-body">
+					                                    ფილტრი <?=$n?>
+					                                </div>
+					                            </div>
+					                        </div>
+
+					                        <!-- Nested Accordion Item 4 -->
+					                        <?php $n = 4; ?>
+					                        <div class="accordion-item">
+					                            <h2 class="accordion-header" id="innerItem<?=$n?>Heading">
+					                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem<?=$n?>Collapse" aria-expanded="false" aria-controls="innerItem<?=$n?>Collapse">
+					                                   ანჯამები
+					                                </button>
+					                            </h2>
+					                            <div id="innerItem<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="innerItem<?=$n?>Heading">
+					                                <div class="accordion-body">
+					                                    ფილტრი <?=$n?>
+					                                </div>
+					                            </div>
+					                        </div>
+
+					                        <!-- Nested Accordion Item 5 -->
+					                        <?php $n = 5; ?>
+					                        <div class="accordion-item">
+					                            <h2 class="accordion-header" id="innerItem<?=$n?>Heading">
+					                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#innerItem<?=$n?>Collapse" aria-expanded="false" aria-controls="innerItem<?=$n?>Collapse">
+					                                   უჯრის მიმმართველები
+					                                </button>
+					                            </h2>
+					                            <div id="innerItem<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="innerItem<?=$n?>Heading">
+					                                <div class="accordion-body">
+					                                    ფილტრი <?=$n?>
+					                                </div>
+					                            </div>
+					                        </div>
 					                    </div>
 					                    <!-- End of Nested Accordion -->
 					                </div>
@@ -566,15 +631,96 @@ $version = "1.0.2";
 					        <!-- End of First Accordion Item -->
 
 					        <!-- Second Accordion Item -->
+					        <?php $n = 2; ?>
 					        <div class="accordion-item">
-					            <h2 class="accordion-header" id="item2Heading">
-					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item2Collapse" aria-expanded="false" aria-controls="item2Collapse">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
 					                    ავეჯის მასალები
 					                </button>
 					            </h2>
-					            <div id="item2Collapse" class="accordion-collapse collapse" aria-labelledby="item2Heading">
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
 					                <div class="accordion-body">
-					                    ფილტრი 3
+					                    ფილტრი <?=$n?>
+					                </div>
+					            </div>
+					        </div>
+					        <!-- End of Second Accordion Item -->
+
+					         <!-- Second Accordion Item -->
+					        <?php $n = 3; ?>
+					        <div class="accordion-item">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
+					                    კარის მასალა
+					                </button>
+					            </h2>
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
+					                <div class="accordion-body">
+					                    ფილტრი <?=$n?>
+					                </div>
+					            </div>
+					        </div>
+					        <!-- End of Second Accordion Item -->
+
+					        <!-- Second Accordion Item -->
+					        <?php $n = 4; ?>
+					        <div class="accordion-item">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
+					                    ჩასაშენებელი ტექნიკა
+					                </button>
+					            </h2>
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
+					                <div class="accordion-body">
+					                    ფილტრი <?=$n?>
+					                </div>
+					            </div>
+					        </div>
+					        <!-- End of Second Accordion Item -->
+
+					        <!-- Second Accordion Item -->
+					        <?php $n = 5; ?>
+					        <div class="accordion-item">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
+					                    საწარმოს დანადგარები
+					                </button>
+					            </h2>
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
+					                <div class="accordion-body">
+					                    ფილტრი <?=$n?>
+					                </div>
+					            </div>
+					        </div>
+					        <!-- End of Second Accordion Item -->
+
+					        <!-- Second Accordion Item -->
+					        <?php $n = 6; ?>
+					        <div class="accordion-item">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
+					                    მატრასები
+					                </button>
+					            </h2>
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
+					                <div class="accordion-body">
+					                    ფილტრი <?=$n?>
+					                </div>
+					            </div>
+					        </div>
+					        <!-- End of Second Accordion Item -->
+
+					        <!-- Second Accordion Item -->
+					        <?php $n = 7; ?>
+					        <div class="accordion-item">
+					            <h2 class="accordion-header" id="item<?=$n?>Heading">
+					                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#item<?=$n?>Collapse" aria-expanded="false" aria-controls="item<?=$n?>Collapse">
+					                    იატაკის ლამინირებული საფარი
+					                </button>
+					            </h2>
+					            <div id="item<?=$n?>Collapse" class="accordion-collapse collapse" aria-labelledby="item<?=$n?>Heading">
+					                <div class="accordion-body">
+					                    ფილტრი <?=$n?>
 					                </div>
 					            </div>
 					        </div>
@@ -603,8 +749,8 @@ $version = "1.0.2";
 									</a>
 
 									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
+										<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
+										<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
 									</div>
 								</div>
 							</div>
@@ -614,8 +760,8 @@ $version = "1.0.2";
 
 						<div class="item">
 							<a href="" class="image-box">
-								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
-									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+								<div class="image" style="background-image:url('/_markup/assets/img/product2.png')">
+									<img src="/_markup/assets/img/product2.png" alt="" loading="lazy">
 								</div>
 							</a>
 
@@ -628,8 +774,8 @@ $version = "1.0.2";
 									</a>
 
 									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
+										<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
+										<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
 									</div>
 								</div>
 							</div>
@@ -645,8 +791,8 @@ $version = "1.0.2";
 					<div class="product-small">
 						<div class="item">
 							<a href="" class="image-box">
-								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
-									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+								<div class="image" style="background-image:url('/_markup/assets/img/product3.png')">
+									<img src="/_markup/assets/img/product3.png" alt="" loading="lazy">
 								</div>
 							</a>
 
@@ -659,8 +805,8 @@ $version = "1.0.2";
 									</a>
 
 									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
+										<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
+										<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
 									</div>
 								</div>
 							</div>
@@ -670,8 +816,8 @@ $version = "1.0.2";
 
 						<div class="item">
 							<a href="" class="image-box">
-								<div class="image" style="background-image:url('/_markup/assets/img/product1.png')">
-									<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+								<div class="image" style="background-image:url('/_markup/assets/img/product4.png')">
+									<img src="/_markup/assets/img/product4.png" alt="" loading="lazy">
 								</div>
 							</a>
 
@@ -684,8 +830,8 @@ $version = "1.0.2";
 									</a>
 
 									<div class="btns">
-										<button type="button" class="favourite">favourite</button>
-										<button type="button" class="cart">cart</button>
+										<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
+										<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
 									</div>
 								</div>
 							</div>
@@ -725,7 +871,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product1.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"საქართველო"
@@ -739,7 +885,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product2.png",
 							"price"=>"15.99",
 							"discount"=>"10",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"საქართველო"
@@ -753,7 +899,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product3.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"თურქეთი"
@@ -767,7 +913,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product4.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"საქართველო"
@@ -781,7 +927,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product5.png",
 							"price"=>"15.99",
 							"discount"=>"30",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"ჩინეთი"
@@ -795,7 +941,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product6.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"საქართველო"
@@ -809,7 +955,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product7.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"საქართველო"
@@ -823,7 +969,7 @@ $version = "1.0.2";
 							"image1"=>"/_markup/assets/img/product8.png",
 							"price"=>"15.99",
 							"discount"=>"0",
-							"link"=>"https://google.com",
+							"link"=>"/_markup/purchase.php",
 							"avaliable"=>"true",
 							"description"=>"<p>იატაკის ლამინურებული საფარი.</p><p>უმაღლესი ხარისხის მასალა, სხვადასხვა ფერში</p>",
 							"producer"=>"იაპონია"
@@ -874,10 +1020,6 @@ $version = "1.0.2";
 				<h3>საკონტაქტო ინფორმაცია</h3>
 				<p class="address">ბათუმი, საქართველო ბაგრატიონის ქუჩა #109</p>
 				<p class="phone"><a href="">+995 0 422 22 11 22</a></p>
-
-				<div class="link-year">
-					<p>WWW.MAXIMA.GE - 2022-2023</p>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -886,11 +1028,11 @@ $version = "1.0.2";
 		<div class="center">
 			<div class="row">
 				<div class="col-md-6">
-					<p>POWERED BY <a href="https://shindi.ge" target="_blank">SHINDI.COM</a></p>
+					<p>2023 &copy; Maxima.ge</p>
 				</div>
 				<div class="col-md-6">
 					<div class="shindi-logo">
-						<a href="" class="shindi">shindi</a>
+						<a href="https://shindi.ge" class="shindi" target="_blank">shindi</a>
 					</div>
 				</div>
 			</div>

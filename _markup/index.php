@@ -183,15 +183,15 @@ $version = "1.0.3";
 			<div class="right g-profile-languages">
 				<ul>
 					<li>
-						<a href="" class="favorite">favorite</a>
+						<a href="" class="favorite" data-tooltip="რჩეულები">favorite</a>
 					</li>
 
 					<li>
-						<a href="javascript:void(0)" class="profile">profile</a>
+						<a href="javascript:void(0)" class="profile" data-tooltip="პროფილი">profile</a>
 					</li>
 
 					<li>
-						<a href="" class="cart">cart</a>
+						<a href="" class="cart" data-tooltip="კალათა">cart</a>
 					</li>
 
 					<li>
@@ -233,47 +233,47 @@ $version = "1.0.3";
 					<div class="sub" id="page1">
 						<div class="row">
 							<div class="col-md-3">
-								<a href="" class="item">
+								<a href="/_markup/product.php" class="item">
 									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+										<img src="/_markup/assets/img/99079-768x432.jpeg" alt="" loading="lazy">
+									</div>
+									<p>სახელურე</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/99807-1-768x432.jpeg" alt="" loading="lazy">
+									</div>
+									<p>ტანსაცმლის საკიდები</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/349628_n.jpg" alt="" loading="lazy">
 									</div>
 									<p>ავეჯის ფეხები</p>
 								</a>
 							</div>
 
 							<div class="col-md-3">
-								<a href="" class="item">
+								<a href="/_markup/product.php" class="item">
 									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+										<img src="/_markup/assets/img/00039-RFH-100x75x25-SN-nickel-1.png" alt="" loading="lazy">
 									</div>
-									<p>მაგიდის აქსესუარები</p>
+									<p>ანჯამები</p>
 								</a>
 							</div>
 
 							<div class="col-md-3">
-								<a href="" class="item">
+								<a href="/_markup/product.php" class="item">
 									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+										<img src="/_markup/assets/img/3478416_n.jpg" alt="" loading="lazy">
 									</div>
-									<p>სამზარეულოს საწურები</p>
-								</a>
-							</div>
-
-							<div class="col-md-3">
-								<a href="" class="item">
-									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-									</div>
-									<p>სახელურები</p>
-								</a>
-							</div>
-
-							<div class="col-md-3">
-								<a href="" class="item">
-									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
-									</div>
-									<p>სახელურები</p>
+									<p>უჯრის მიმმართველები (ე.წ. "სალასკა")</p>
 								</a>
 							</div>
 						</div>
@@ -282,20 +282,38 @@ $version = "1.0.3";
 					<div class="sub" id="page2">
 						<div class="row">
 							<div class="col-md-3">
-								<a href="" class="item">
+								<a href="/_markup/product.php" class="item">
 									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+										<img src="/_markup/assets/img/aaaa_1.jpg" alt="" loading="lazy">
 									</div>
-									<p>ავეჯის ფეხები</p>
+									<p>ავეჯის ლამინატი</p>
 								</a>
 							</div>
 
 							<div class="col-md-3">
-								<a href="" class="item">
+								<a href="/_markup/product.php" class="item">
 									<div class="img-box">
-										<img src="/_markup/assets/img/cat1.jpg" alt="" loading="lazy">
+										<img src="/_markup/assets/img/_w.png" alt="" loading="lazy">
 									</div>
-									<p>მაგიდის აქსესუარები</p>
+									<p>ლამინირებული მდფ</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/spon.png" alt="" loading="lazy">
+									</div>
+									<p>შპონირებული მდფ</p>
+								</a>
+							</div>
+
+							<div class="col-md-3">
+								<a href="/_markup/product.php" class="item">
+									<div class="img-box">
+										<img src="/_markup/assets/img/panel.jpg" alt="" loading="lazy">
+									</div>
+									<p>მდფ-ის საფასადე პანელი (AGT)</p>
 								</a>
 							</div>
 						</div>
@@ -663,13 +681,15 @@ $version = "1.0.3";
 						
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product1.png');">
-											<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product1.png');">
+												<img src="/_markup/assets/img/product1.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -692,7 +712,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1000">-</div>
@@ -700,7 +720,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1000">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -711,13 +732,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product2.png');">
-											<img src="/_markup/assets/img/product2.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product2.png');">
+												<img src="/_markup/assets/img/product2.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -740,7 +763,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1001">-</div>
@@ -748,7 +771,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1001">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -759,13 +783,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product3.png');">
-											<img src="/_markup/assets/img/product3.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product3.png');">
+												<img src="/_markup/assets/img/product3.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -788,7 +814,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1002">-</div>
@@ -796,7 +822,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1002">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -807,13 +834,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product4.png');">
-											<img src="/_markup/assets/img/product4.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product4.png');">
+												<img src="/_markup/assets/img/product4.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -836,7 +865,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1003">-</div>
@@ -844,7 +873,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1003">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -855,13 +885,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product5.png');">
-											<img src="/_markup/assets/img/product5.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product5.png');">
+												<img src="/_markup/assets/img/product5.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -884,7 +916,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1004">-</div>
@@ -892,7 +924,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1004">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -903,13 +936,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product6.png');">
-											<img src="/_markup/assets/img/product6.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product6.png');">
+												<img src="/_markup/assets/img/product6.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -932,7 +967,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1005">-</div>
@@ -940,7 +975,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1005">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -951,13 +987,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product7.png');">
-											<img src="/_markup/assets/img/product7.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product7.png');">
+												<img src="/_markup/assets/img/product7.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -980,7 +1018,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1006">-</div>
@@ -988,7 +1026,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1006">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -999,15 +1038,15 @@ $version = "1.0.3";
 
 						<div class="col-md-3">
 							<div class="item">
-								<div class="image-box">
-									<a href="">
-										<div class="image" style="background-image: url('/_markup/assets/img/product8.png');">
-											<img src="/_markup/assets/img/product8.png" alt="" loading="lazy">
-										</div>
-									</a>
-									<button type="button" class="compare">compare</button>
-
-									<div class="discount">30%</div>
+								<div class="image-wrapper">
+									<div class="image-box">
+										<a href="">
+											<div class="image" style="background-image: url('/_markup/assets/img/product8.png');">
+												<img src="/_markup/assets/img/product8.png" alt="" loading="lazy">
+											</div>
+										</a>
+									</div>
+									<button type="button" class="compare" data-tooltip="შეადარე">compare</button>
 								</div>
 
 								<div class="content">
@@ -1030,7 +1069,7 @@ $version = "1.0.3";
 										</div>
 
 										<div class="btns">
-											<button type="button" class="favourite">favourite</button>
+											<button type="button" class="favourite" data-tooltip="რჩეულებში დამატება">favourite</button>
 
 											<div class="quentity-box">
 												<div class="minus" data-id="1007">-</div>
@@ -1038,7 +1077,8 @@ $version = "1.0.3";
 												<div class="plus" data-id="1007">+</div>
 											</div>
 
-											<button type="button" class="cart">cart</button>
+											<button type="button" class="cart" data-tooltip="კალათაში დამატება">cart</button>
+											<button type="button" class="eye" data-tooltip="დეტალურად ნახვა">eye</button>
 										</div>
 
 										<div class="clearer"></div>
@@ -1397,10 +1437,6 @@ $version = "1.0.3";
 				<h3>საკონტაქტო ინფორმაცია</h3>
 				<p class="address">ბათუმი, საქართველო ბაგრატიონის ქუჩა #109</p>
 				<p class="phone"><a href="">+995 0 422 22 11 22</a></p>
-
-				<div class="link-year">
-					<p>WWW.MAXIMA.GE - 2022-2023</p>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -1409,11 +1445,11 @@ $version = "1.0.3";
 		<div class="center">
 			<div class="row">
 				<div class="col-md-6">
-					<p>POWERED BY <a href="https://shindi.ge" target="_blank">SHINDI.COM</a></p>
+					<p>2023 &copy; Maxima.ge</p>
 				</div>
 				<div class="col-md-6">
 					<div class="shindi-logo">
-						<a href="" class="shindi">shindi</a>
+						<a href="https://shindi.ge" class="shindi" target="_blank">shindi</a>
 					</div>
 				</div>
 			</div>

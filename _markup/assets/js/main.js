@@ -516,6 +516,10 @@ class RegisterAuthModal{
 }
 
 class ProductPage{
+	constructor(){
+		this.usefullFunctions = new UsefullFunctions;
+	}
+
 	filterBox(){
 		$(document).on('click', '.product-page main .product-section .left .box .wrapper .accordion form label', function(){
 			var input = $('input', this).prop('checked');
@@ -548,16 +552,19 @@ class ProductPage{
 			// Perform actions with the product data
 			html += "<div class=\"col-md-4\">";
 			html += "<div class=\"item\">";	
+
+			html += "<div class=\"image-wrapper\">";	
 			html += "<div class=\"image-box\">";	
 			html += "<a href=\""+productLink+"\">";
 			html += "<div class=\"image\" style=\"background-image: url('"+productImage+"');\">";
 			html += "<img src=\""+productImage+"\" alt=\"\" loading=\"lazy\">";
 			html += "</div>";
 			html += "</a>";
-			html += "<button type=\"button\" class=\"compare\" data-id=\""+productId+"\">compare</button>";
 			if(productDiscount>0){
 				html += "<div class=\"discount\">"+productDiscount+"%</div>";
 			}
+			html += "</div>";
+			html += "<button type=\"button\" class=\"compare\" data-id=\""+productId+"\" data-tooltip=\"შეადარე\">compare</button>";
 			html += "</div>";
 
 			html += "<div class=\"content\">";
@@ -579,7 +586,7 @@ class ProductPage{
 			html += "</div>";
 
 			html += "<div class=\"btns\">";
-			html += "<button type=\"button\" class=\"favourite\" data-id=\""+productId+"\">favourite</button>";
+			html += "<button type=\"button\" class=\"favourite\" data-id=\""+productId+"\" data-tooltip=\"რჩეულებში დამატება\">favourite</button>";
 
 			html += "<div class='quentity-box'>";
 			html += "<div class='minus' data-id='"+productId+"'>-</div>";
@@ -587,7 +594,8 @@ class ProductPage{
 			html += "<div class='plus' data-id='"+productId+"'>+</div>";
 			html += "</div>";
 
-			html += "<button type=\"button\" class=\"cart\" data-id=\""+productId+"\">cart</button>";
+			html += "<button type=\"button\" class=\"cart\" data-id=\""+productId+"\" data-tooltip=\"კალათაში დამატება\">cart</button>";
+			html += "<button type=\"button\" class=\"eye\" data-tooltip=\"დეტალურად ნახვა\">eye</button>";
 			html += "</div>";
 			html += "<div class=\"clearer\"></div>";
 			html += "</div>";
@@ -644,8 +652,8 @@ class ProductPage{
 			
 			html += "<div class=\"right\">";
 			html += "<div class=\"btns\">";
-			html += "<a href=\"javascript:void(0)\" class=\"favourite\" data-id=\""+productId+"\">favorite</a>";
-			html += "<a href=\"javascript:void(0)\" class=\"compare\" data-id=\""+productId+"\">compare</a>";
+			html += "<a href=\"javascript:void(0)\" class=\"favourite\" data-id=\""+productId+"\" data-tooltip=\"რჩეულებში დამატება\">favorite</a>";
+			html += "<a href=\"javascript:void(0)\" class=\"compare\" data-id=\""+productId+"\" data-tooltip=\"შეადარე\">compare</a>";
 
 			html += "<div class='quentity-box'>";
 			html += "<div class='minus' data-id='"+productId+"'>-</div>";
@@ -653,7 +661,8 @@ class ProductPage{
 			html += "<div class='plus' data-id='"+productId+"'>+</div>";
 			html += "</div>";
 
-			html += "<a href=\"javascript:void(0)\" class=\"cart\" data-id=\""+productId+"\">cart</a>";
+			html += "<a href=\"javascript:void(0)\" class=\"cart\" data-id=\""+productId+"\" data-tooltip=\"კალათაში დამატება\">cart</a>";
+			html += "<a href=\"/_markup/purchase.php\" class=\"eye\" data-id=\""+productId+"\" data-tooltip=\"დეტალურად ნახვა\">cart</a>";
 			html += "</div>";
 
 			html += "<form action=\"\" method=\"post\">";
@@ -704,7 +713,8 @@ class ProductPage{
 				var html = that.listMarkup(productList);
 			}
 
-			$('.product-page main .product-section .right .products').html(html);			
+			$('.product-page main .product-section .right .products').html(html);		
+			that.usefullFunctions.tooltipInit();	
 		});
 	}
 
@@ -722,8 +732,26 @@ class ProductPage{
 	}
 }
 
-class ProductQuentity{
-	btnClickInit(){
+class UsefullFunctions{
+	tooltipInit(){
+		$('[data-tooltip]').hover(function () {
+		    var tooltip = $(this).attr('data-tooltip');
+		    $(this).data('tipText', tooltip).removeAttr('data-tooltip');
+		    
+		    // Check if a tooltip with class 'tooltip_3' already exists
+		    if (!$('.tooltip_3').length) {
+		        var $tooltip = $('<em class="tooltip_3"></em>').html(tooltip);
+		        $(this).append($tooltip);
+		    }
+		}, function () {
+		    $(this).attr('data-tooltip', $(this).data('tipText'));
+		    
+		    // Remove the tooltip
+		    $('.tooltip_3').remove();
+		});
+	}
+
+	productQuentityInit(){
 		$(document).on('click', '.quentity-box .minus', function(){
 			var id = $(this).attr('data-id');
 			var inputVal = parseInt($('input[data-id="'+id+'"]').val());
@@ -745,7 +773,8 @@ class ProductQuentity{
 	}
 
 	run(){
-		this.btnClickInit();
+		this.tooltipInit();
+		this.productQuentityInit();
 	}
 }
 
@@ -789,6 +818,6 @@ registerAuthModal.run();
 var productPage = new ProductPage;
 productPage.run();
 
-/* ProductQuentity */
-var productQuentity = new ProductQuentity;
-productQuentity.run();
+/* UsefullFunctions */
+var usefullFunctions = new UsefullFunctions;
+usefullFunctions.run();
