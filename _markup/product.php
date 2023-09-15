@@ -141,32 +141,6 @@ $version = "1.0.2";
 </div>
 
 <header>
-	<div class="top">
-		<div class="center">
-			<div class="address">
-				<span>ბაგრატიონის ქ. #109</span>
-			</div>
-
-			<ul class="top-menu">
-				<li><a href="">სიახლეები</a></li>
-				<li><a href="">კონტაქტი</a></li>
-			</ul>
-
-			<div class="right">
-				<ul class="social">
-					<li><a href="" class="facebook">facebook</a></li>
-					<li><a href="" class="instagram">instagram</a></li>
-					<li><a href="" class="googlePlus">googlePlus</a></li>
-					<li><a href="" class="whatsapp">whatsapp</a></li>
-				</ul>
-
-				<div class="phone">
-					<a href="tel:0422221122">0422 22 11 22</a>
-				</div>
-			</div>
-		</div>
-	</div>
-
 	<div class="middle">
 		<div class="center">
 			<div class="logo">
@@ -183,15 +157,15 @@ $version = "1.0.2";
 			<div class="right g-profile-languages">
 				<ul>
 					<li>
-						<a href="" class="favorite" data-tooltip="რჩეულები">favorite</a>
+						<a href="" class="favorite">favorite</a>
 					</li>
 
 					<li>
-						<a href="javascript:void(0)" class="profile" data-tooltip="პროფილი">profile</a>
+						<a href="javascript:void(0)" class="profile">profile</a>
 					</li>
 
 					<li>
-						<a href="" class="cart" data-tooltip="კალათა">cart</a>
+						<a href="" class="cart">cart</a>
 					</li>
 
 					<li>

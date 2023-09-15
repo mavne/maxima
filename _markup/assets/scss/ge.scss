@@ -124,7 +124,6 @@ main .products-box .center h2{
 	line-height: 24px;
 	font-style: normal;
 	font-weight: 400;
-	line-height: normal;
 }
 
 main .products-box .center .products .item .content h3{
@@ -704,4 +703,17 @@ main .product-item .center .additional-data .data p{
 	font-style: normal;
 	line-height: 16px;
 	user-select: none;
+}
+
+.mobile-navigation .wrapper .additional-production ul li a{
+	font-family: 'Roboto _GEO Mt regular';
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.mobile-navigation .wrapper nav ul li a{
+	font-family: 'Roboto _Nusx';
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
 }
