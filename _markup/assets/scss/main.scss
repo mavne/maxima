@@ -716,6 +716,8 @@ main .center .left .mainslider-box #mainslider .owl-stage-outer .owl-stage .owl-
 main .center .left .mainslider-box #mainslider .owl-stage-outer .owl-stage .owl-item .item .img-box{
 	@include makeNull;
 	width: 100%;
+	display: block;
+	text-decoration: none;
 	height: $mainSliderHeight;
 	background-size: cover;
 	background-position: center;
@@ -787,6 +789,8 @@ main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item{
 
 main .center .left .bottom #subslider .owl-stage-outer .owl-stage .owl-item .item{
 	height: 100%;
+	display: block;
+	text-decoration: none;
 	position: relative;
 }
 
@@ -1291,7 +1295,6 @@ main .products-box .center .products .item .content .bottom{
 
 main .products-box .center .products .item .content .bottom .price-box{
 	@include makeNull;
-	height: 24px;
 	display: inline-block;
 }
 
@@ -1313,7 +1316,7 @@ main .products-box .center .products .item .content .bottom .btns{
 	@include makeNull;
 	display: inline-block;
 	float: right;
-	margin-top: 4px;
+	margin-top: -5px;
 }
 
 main .products-box .center .products .item .content .bottom .btns button{
@@ -1545,6 +1548,11 @@ main .discount #discount-slider .owl-stage-outer .owl-stage{
 main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item{
 	height: 600px;
 	position: relative;
+}
+
+main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item{
+	display: block;
+	text-decoration: none;
 }
 
 main .discount #discount-slider .owl-stage-outer .owl-stage .owl-item .item .image-box{

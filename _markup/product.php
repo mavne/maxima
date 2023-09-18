@@ -140,6 +140,49 @@ $version = "1.0.2";
   </div>
 </div>
 
+<div class="mobile-navigation">
+	<div class="wrapper">
+		<div class="additional-production">
+			<ul>
+				<li><a href="">პოპულარული პროდუქცია</a></li>
+				<li><a href="">რეკომენდირებული ბრენდები</a></li>
+			</ul>
+		</div>
+
+		<nav>
+			<ul>
+					<li class="hasSub">
+							<a href="javascript:void(0)" data-type="page1" data-status="false">ავეჯის აქსესუარები</a>
+							<ul class="sub page1">
+								<li><a href="">სახელურები</a></li>
+								<li><a href="">ტანსაცმლის საკიდები</a></li>
+								<li><a href="">ავეჯის ფეხები</a></li>
+								<li><a href="">ანჯამები</a></li>
+								<li><a href="">უჯრის მიმმართველები</a></li>
+							</ul>
+					</li>
+					<li class="hasSub">
+						<a href="javascript:void(0)" data-type="page2" data-status="false">ავეჯის მასალა</a>
+						<ul class="sub page2">
+							<li><a href="">ავეჯის ლამინატი</a></li>
+							<li><a href="">ლამინატის მდფ</a></li>
+							<li><a href="">შპონირებული მდფ</a></li>
+							<li><a href="">მდფ საფასადე პანელი</a></li>
+						</ul>
+					</li>
+					<li><a href="javascript:void(0)" data-type="page3">კარის მასალა</a></li>
+					<li><a href="javascript:void(0)" data-type="page4">ჩაშენებული ტექნიკა</a></li>
+					<li><a href="javascript:void(0)" data-type="page5">საწარმოს დანადგარები</a></li>
+					<li><a href="javascript:void(0)" data-type="page6">მატრასები</a></li>
+					<li><a href="javascript:void(0)" data-type="page7">იატაკის ლამინირებული საფარი</a></li>
+					<li><a href="javascript:void(0)" data-type="page8">სამზარეულოს ზედაპირის ჩამოსასხმელი ნედლეული</a></li>
+					<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
+				</ul>
+		</nav>
+	</div>
+	<a href="javascript:void(0)" class="times">x</a>
+</div>
+
 <header>
 	<div class="middle">
 		<div class="center">

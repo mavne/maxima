@@ -1,5 +1,5 @@
 <?php 
-$version = "1.0.3";
+$version = "1.0.4";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -179,13 +179,6 @@ $version = "1.0.3";
 					<li><a href="javascript:void(0)" data-type="page9">სერვისი</a></li>
 				</ul>
 		</nav>
-
-		<div class="languages-pop">
-			<ul>
-				<li><a href="" class="ka">ka</a></li>
-				<li><a href="" class="en">en</a></li>
-			</ul>
-		</div>
 	</div>
 	<a href="javascript:void(0)" class="times">x</a>
 </div>
@@ -539,28 +532,28 @@ $version = "1.0.3";
 				<div class="mainslider-box">
 					<div class="owl-carousel owl-theme" id="mainslider">
 					    <div class="item">
-					    	<div class="img-box" style="background-image:url('/_markup/assets/img/saxeluri-min.jpg')">
+					    	<a href="" class="img-box" style="background-image:url('/_markup/assets/img/saxeluri-min.jpg')">
 					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-					    	</div>
+					    	</a>
 					    </div>
 
 					    <div class="item">
-					    	<div class="img-box" style="background-image:url('/_markup/assets/img/default_name.webp')">
+					    	<a href="" class="img-box" style="background-image:url('/_markup/assets/img/default_name.webp')">
 					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-					    	</div>
+					    	</a>
 					    </div>
 
 					    <div class="item">
-					    	<div class="img-box" style="background-image:url('/_markup/assets/img/CustomMadeBedroomFurniture.jpeg')">
+					    	<a href="" class="img-box" style="background-image:url('/_markup/assets/img/CustomMadeBedroomFurniture.jpeg')">
 					    		<img src="/_markup/assets/img/saxeluri-min.jpg" alt="" loading="lazy">
-					    	</div>
+					    	</a>
 					    </div>				    
 					</div>
 				</div>
 
 				<div class="bottom">
 					<div class="owl-carousel owl-theme" id="subslider">
-						<div class="item">
+						<a href="" class="item">
 							<div class="brand">
 								<img src="/_markup/assets/img/brand.png" alt="" loading="lazy">
 							</div>
@@ -570,9 +563,9 @@ $version = "1.0.3";
 									<p>კოდი (ზომა): 21860 (160 მმ) / ფერი: ანტიკური ოქრო</p>
 								</div>
 							</div>
-						</div>
+						</a>
 
-						<div class="item">
+						<a href="" class="item">
 							<div class="brand">
 								<img src="/_markup/assets/img/disney.png" alt="" loading="lazy">
 							</div>
@@ -582,9 +575,9 @@ $version = "1.0.3";
 									<p>კოდი (ზომა): 1500 (50 მმ) / ფერი: თეთრი</p>
 								</div>
 							</div>
-						</div>
+						</a>
 
-						<div class="item">
+						<a href="" class="item">
 							<div class="brand">
 								<img src="/_markup/assets/img/future.png" alt="" loading="lazy">
 							</div>
@@ -594,7 +587,7 @@ $version = "1.0.3";
 									<p>კოდი (ზომა): 454 (1600 მმ) / ფერი: შავი</p>
 								</div>
 							</div>
-						</div>
+						</a>
 					</div>
 
 					<div class="btns">
@@ -652,6 +645,8 @@ $version = "1.0.3";
 			<div class="clearer"></div>
 		</div>
 	</div>
+
+
 
 	<div class="adresses-box">
 		<div class="center">
@@ -1120,7 +1115,7 @@ $version = "1.0.3";
 	<section class="discount">
 		<div class="owl-carousel owl-theme" id="discount-slider">
 
-			<div class="item">
+			<a href="" class="item">
 				<div class="image-box">
 					<div class="image" style="background-image: url('/_markup/assets/img/discount.png');">
 						<img src="/_markup/assets/img/discount.png" alt="" loading="lazy">
@@ -1154,9 +1149,9 @@ $version = "1.0.3";
 						</div>
 					</div>
 				</div>
-			</div>
+			</a>
 
-			<div class="item">
+			<a href="" class="item">
 				<div class="image-box">
 					<div class="image" style="background-image: url('/_markup/assets/img/004.jpeg');">
 						<img src="/_markup/assets/img/004.jpeg" alt="" loading="lazy">
@@ -1190,9 +1185,9 @@ $version = "1.0.3";
 						</div>
 					</div>
 				</div>
-			</div>
+			</a>
 
-			<div class="item">
+			<a href="" class="item">
 				<div class="image-box">
 					<div class="image" style="background-image: url('/_markup/assets/img/005.jpeg');">
 						<img src="/_markup/assets/img/005.jpeg" alt="" loading="lazy">
@@ -1226,7 +1221,7 @@ $version = "1.0.3";
 						</div>
 					</div>
 				</div>
-			</div>
+			</a>
 
 		</div>
 	</section>
